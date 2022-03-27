@@ -3,12 +3,22 @@ owner: preschian # Your GitHub organization or username, where this repository l
 repo: kodadot-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
+  - name: rubick/005
+    url: https://app.gc.subsquid.io/beta/rubick/005/graphql
+  - name: rubick/005
+    url: https://app.gc.subsquid.io/beta/rubick/004/graphql
+  - name: magic
+    url: https://api.subquery.network/sq/vikiival/magick
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"operationName":"nFTStatsByIssuer","variables":{"account":"EXj6NbWcqtHQmAEekdvPoPQAksFAUdkPXrgJWkqFBbHJZCE"},"query":"query nFTStatsByIssuer($account: String!) {\n  firstMint: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n    orderBy: BLOCK_NUMBER_ASC\n    first: 1\n  ) {\n    nodes {\n      collection {\n        createdAt\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  nFTCreated: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTCollected: nFTEntities(\n    filter: {issuer: {notEqualTo: $account}, currentOwner: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTSold: nFTEntities(\n    filter: {issuer: {equalTo: $account}, currentOwner: {notEqualTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n}\n"}'
+  - name: durable-jpeg.kodadot.workers.dev
+    url: https://durable-jpeg.kodadot.workers.dev/batch
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"keys":["bafkreiebujmt5lzj7wv64hlso5dt3d5p237l3hwshxb4rqmt7gn3we43fe"]}'
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
 
