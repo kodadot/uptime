@@ -94,19 +94,19 @@
     "url": "https://kodadot.xyz/",
     "icon": "https://favicons.githubusercontent.com/kodadot.xyz",
     "slug": "kodadot",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 132,
-    "timeDay": 237,
-    "timeWeek": 132,
-    "timeMonth": 132,
-    "timeYear": 132,
+    "status": "up",
+    "uptime": "99.85%",
+    "uptimeDay": "99.27%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.85%",
+    "time": 139,
+    "timeDay": 227,
+    "timeWeek": 139,
+    "timeMonth": 139,
+    "timeYear": 139,
     "dailyMinutesDown": {
-      "2022-04-01": 0
+      "2022-04-01": 11
     }
   },
   {
