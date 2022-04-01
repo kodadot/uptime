@@ -94,9 +94,9 @@
     "url": "https://kodadot.xyz/",
     "icon": "https://favicons.githubusercontent.com/kodadot.xyz",
     "slug": "kodadot",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -105,7 +105,9 @@
     "timeWeek": 132,
     "timeMonth": 132,
     "timeYear": 132,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-04-01": 0
+    }
   },
   {
     "name": "kodadot series-insight",
