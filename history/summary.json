@@ -4,19 +4,19 @@
     "url": "https://app.gc.subsquid.io/beta/rubick/005/graphql",
     "icon": "https://favicons.githubusercontent.com/app.gc.subsquid.io",
     "slug": "rubick-005",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 506,
-    "timeDay": 1736,
-    "timeWeek": 850,
-    "timeMonth": 506,
-    "timeYear": 506,
+    "status": "up",
+    "uptime": "99.87%",
+    "uptimeDay": "98.77%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
+    "time": 495,
+    "timeDay": 1441,
+    "timeWeek": 796,
+    "timeMonth": 495,
+    "timeYear": 495,
     "dailyMinutesDown": {
-      "2022-04-05": 0
+      "2022-04-05": 18
     }
   },
   {
@@ -114,19 +114,19 @@
     "url": "https://app.gc.subsquid.io/beta/rubick/005/graphql",
     "icon": "https://favicons.githubusercontent.com/app.gc.subsquid.io",
     "slug": "kodadot-series-insight",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 217,
-    "timeDay": 143,
-    "timeWeek": 261,
-    "timeMonth": 217,
-    "timeYear": 217,
+    "status": "up",
+    "uptime": "99.87%",
+    "uptimeDay": "98.77%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
+    "time": 215,
+    "timeDay": 157,
+    "timeWeek": 254,
+    "timeMonth": 215,
+    "timeYear": 215,
     "dailyMinutesDown": {
-      "2022-04-05": 0
+      "2022-04-05": 18
     }
   },
   {
