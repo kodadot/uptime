@@ -4,18 +4,20 @@
     "url": "https://app.gc.subsquid.io/beta/rubick/005/graphql",
     "icon": "https://favicons.githubusercontent.com/app.gc.subsquid.io",
     "slug": "rubick-005",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 237,
-    "timeDay": 316,
-    "timeWeek": 268,
-    "timeMonth": 237,
-    "timeYear": 237,
-    "dailyMinutesDown": {}
+    "time": 390,
+    "timeDay": 1804,
+    "timeWeek": 646,
+    "timeMonth": 390,
+    "timeYear": 390,
+    "dailyMinutesDown": {
+      "2022-04-05": 0
+    }
   },
   {
     "name": "rubick/004",
