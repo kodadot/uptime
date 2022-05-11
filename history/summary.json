@@ -45,19 +45,19 @@
     "url": "https://api.subquery.network/sq/vikiival/magick",
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "magic",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "98.59%",
-    "uptimeWeek": "99.80%",
+    "uptimeDay": "98.55%",
+    "uptimeWeek": "99.79%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.97%",
     "time": 1024,
-    "timeDay": 718,
-    "timeWeek": 845,
-    "timeMonth": 875,
+    "timeDay": 827,
+    "timeWeek": 867,
+    "timeMonth": 880,
     "timeYear": 1024,
     "dailyMinutesDown": {
-      "2022-05-11": 20
+      "2022-05-11": 21
     }
   },
   {
@@ -220,17 +220,17 @@
     "url": "https://api.subquery.network/sq/vikiival/magick",
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-collection-by-id",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "98.63%",
+    "uptimeDay": "98.61%",
     "uptimeWeek": "99.80%",
-    "uptimeMonth": "99.96%",
+    "uptimeMonth": "99.95%",
     "uptimeYear": "99.97%",
-    "time": 225,
-    "timeDay": 217,
-    "timeWeek": 598,
-    "timeMonth": 270,
-    "timeYear": 225,
+    "time": 347,
+    "timeDay": 2381,
+    "timeWeek": 1277,
+    "timeMonth": 471,
+    "timeYear": 347,
     "dailyMinutesDown": {
       "2022-05-11": 20
     }
@@ -240,19 +240,19 @@
     "url": "https://api.subquery.network/sq/vikiival/magick",
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-collection-list-by-account",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
-    "time": 203,
-    "timeDay": 1175,
-    "timeWeek": 452,
-    "timeMonth": 231,
-    "timeYear": 203,
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 317,
+    "timeDay": 2870,
+    "timeWeek": 1097,
+    "timeMonth": 420,
+    "timeYear": 317,
     "dailyMinutesDown": {
-      "2022-05-11": 9
+      "2022-05-11": 0
     }
   },
   {
@@ -260,19 +260,19 @@
     "url": "https://api.subquery.network/sq/vikiival/magick",
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-first-nft-by-issuer",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
-    "time": 247,
-    "timeDay": 363,
-    "timeWeek": 251,
-    "timeMonth": 255,
-    "timeYear": 247,
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 246,
+    "timeDay": 312,
+    "timeWeek": 245,
+    "timeMonth": 253,
+    "timeYear": 246,
     "dailyMinutesDown": {
-      "2022-05-11": 9
+      "2022-05-11": 0
     }
   },
   {
@@ -280,19 +280,19 @@
     "url": "https://api.subquery.network/sq/vikiival/magick",
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-first-nft-by-issuer",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
-    "time": 247,
-    "timeDay": 363,
-    "timeWeek": 251,
-    "timeMonth": 255,
-    "timeYear": 247,
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 246,
+    "timeDay": 312,
+    "timeWeek": 245,
+    "timeMonth": 253,
+    "timeYear": 246,
     "dailyMinutesDown": {
-      "2022-05-11": 9
+      "2022-05-11": 0
     }
   }
 ]
