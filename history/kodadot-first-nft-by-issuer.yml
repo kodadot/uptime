@@ -1,7 +1,7 @@
 url: https://api.subquery.network/sq/vikiival/magick
-status: up
-code: 200
-responseTime: 840
-lastUpdated: 2022-05-11T10:52:52.284Z
+status: down
+code: 404
+responseTime: 159
+lastUpdated: 2022-05-11T11:02:24.591Z
 startTime: Sun Mar 27 2022 11:02:53 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
