@@ -46,18 +46,18 @@
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "magic",
     "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "97.77%",
-    "uptimeWeek": "99.68%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.95%",
+    "uptime": "99.97%",
+    "uptimeDay": "98.59%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.97%",
     "time": 1029,
     "timeDay": 940,
     "timeWeek": 908,
     "timeMonth": 892,
     "timeYear": 1029,
     "dailyMinutesDown": {
-      "2022-05-11": 32
+      "2022-05-11": 20
     }
   },
   {
@@ -160,9 +160,9 @@
     "url": "https://api.subquery.network/sq/vikiival/magick",
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-gallery",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "98.62%",
+    "uptimeDay": "98.60%",
     "uptimeWeek": "99.80%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.97%",
@@ -221,18 +221,18 @@
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-collection-by-id",
     "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "97.84%",
-    "uptimeWeek": "99.69%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.95%",
+    "uptime": "99.97%",
+    "uptimeDay": "98.63%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.97%",
     "time": 345,
     "timeDay": 1852,
     "timeWeek": 1176,
     "timeMonth": 465,
     "timeYear": 345,
     "dailyMinutesDown": {
-      "2022-05-11": 31
+      "2022-05-11": 20
     }
   },
   {
@@ -241,19 +241,17 @@
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-collection-list-by-account",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 324,
     "timeDay": 2323,
     "timeWeek": 1056,
     "timeMonth": 428,
     "timeYear": 324,
-    "dailyMinutesDown": {
-      "2022-05-11": 11
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "kodadot firstNftByIssuer",
@@ -261,19 +259,17 @@
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-first-nft-by-issuer",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 247,
     "timeDay": 308,
     "timeWeek": 248,
     "timeMonth": 254,
     "timeYear": 247,
-    "dailyMinutesDown": {
-      "2022-05-11": 11
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "kodadot firstNftByIssuer",
@@ -281,18 +277,16 @@
     "icon": "https://favicons.githubusercontent.com/api.subquery.network",
     "slug": "kodadot-first-nft-by-issuer",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 247,
     "timeDay": 308,
     "timeWeek": 248,
     "timeMonth": 254,
     "timeYear": 247,
-    "dailyMinutesDown": {
-      "2022-05-11": 11
-    }
+    "dailyMinutesDown": {}
   }
 ]
