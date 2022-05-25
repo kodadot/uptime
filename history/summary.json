@@ -65,19 +65,19 @@
     "url": "https://kodadot.mypinata.cloud/ipfs/bafkreigrljewlnnusfefnmm75rrmb46ecn2cv27dfkewzqrom6zcqetefq",
     "icon": "https://favicons.githubusercontent.com/kodadot.mypinata.cloud",
     "slug": "pinata",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.23%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
     "time": 488,
-    "timeDay": 235,
-    "timeWeek": 399,
-    "timeMonth": 500,
+    "timeDay": 320,
+    "timeWeek": 410,
+    "timeMonth": 499,
     "timeYear": 488,
     "dailyMinutesDown": {
-      "2022-05-25": 0
+      "2022-05-25": 11
     }
   },
   {
@@ -85,19 +85,19 @@
     "url": "https://durable-jpeg.kodadot.workers.dev/batch",
     "icon": "https://favicons.githubusercontent.com/durable-jpeg.kodadot.workers.dev",
     "slug": "durable-jpeg-kodadot-workers-dev",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.23%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
     "time": 278,
-    "timeDay": 153,
-    "timeWeek": 234,
-    "timeMonth": 275,
+    "timeDay": 185,
+    "timeWeek": 236,
+    "timeMonth": 274,
     "timeYear": 278,
     "dailyMinutesDown": {
-      "2022-05-25": 0
+      "2022-05-25": 11
     }
   },
   {
@@ -105,19 +105,19 @@
     "url": "https://kodadot.xyz/",
     "icon": "https://favicons.githubusercontent.com/kodadot.xyz",
     "slug": "kodadot",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 160,
-    "timeDay": 116,
-    "timeWeek": 138,
-    "timeMonth": 153,
-    "timeYear": 160,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.23%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.99%",
+    "time": 161,
+    "timeDay": 152,
+    "timeWeek": 148,
+    "timeMonth": 156,
+    "timeYear": 161,
     "dailyMinutesDown": {
-      "2022-05-25": 0
+      "2022-05-25": 11
     }
   },
   {
