@@ -29,7 +29,7 @@
     "uptime": "91.72%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "74.60%",
+    "uptimeMonth": "74.57%",
     "uptimeYear": "91.72%",
     "time": 189,
     "timeDay": 92,
@@ -37,7 +37,7 @@
     "timeMonth": 129,
     "timeYear": 189,
     "dailyMinutesDown": {
-      "2022-06-29": 356,
+      "2022-06-29": 367,
       "2022-06-28": 1440,
       "2022-06-27": 1440,
       "2022-06-26": 1440,
@@ -74,19 +74,19 @@
     "url": "https://kodadot.mypinata.cloud/ipfs/bafkreigrljewlnnusfefnmm75rrmb46ecn2cv27dfkewzqrom6zcqetefq",
     "icon": "https://favicons.githubusercontent.com/kodadot.mypinata.cloud",
     "slug": "pinata",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.24%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 534,
-    "timeDay": 227,
-    "timeWeek": 677,
+    "timeDay": 355,
+    "timeWeek": 670,
     "timeMonth": 618,
     "timeYear": 534,
     "dailyMinutesDown": {
-      "2022-06-29": 0
+      "2022-06-29": 11
     }
   },
   {
@@ -94,19 +94,19 @@
     "url": "https://durable-jpeg.kodadot.workers.dev/batch",
     "icon": "https://favicons.githubusercontent.com/durable-jpeg.kodadot.workers.dev",
     "slug": "durable-jpeg-kodadot-workers-dev",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.24%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 279,
-    "timeDay": 147,
-    "timeWeek": 244,
-    "timeMonth": 273,
+    "timeDay": 194,
+    "timeWeek": 249,
+    "timeMonth": 274,
     "timeYear": 279,
     "dailyMinutesDown": {
-      "2022-06-29": 0
+      "2022-06-29": 11
     }
   },
   {
@@ -114,19 +114,19 @@
     "url": "https://kodadot.xyz/",
     "icon": "https://favicons.githubusercontent.com/kodadot.xyz",
     "slug": "kodadot",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.24%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 175,
-    "timeDay": 107,
-    "timeWeek": 195,
-    "timeMonth": 200,
+    "timeDay": 126,
+    "timeWeek": 191,
+    "timeMonth": 199,
     "timeYear": 175,
     "dailyMinutesDown": {
-      "2022-06-29": 0
+      "2022-06-29": 11
     }
   },
   {
