@@ -1,7 +1,7 @@
 url: https://durable-jpeg.kodadot.workers.dev/batch
-status: down
-code: 403
-responseTime: 89
-lastUpdated: 2022-06-30T15:25:15.292Z
+status: up
+code: 200
+responseTime: 173
+lastUpdated: 2022-06-30T15:38:23.193Z
 startTime: Sun Mar 27 2022 08:17:29 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
