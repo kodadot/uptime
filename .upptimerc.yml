@@ -24,8 +24,8 @@ status-website:
 sites:
   - name: rubick/005
     url: https://app.gc.subsquid.io/beta/rubick/005/graphql
-  - name: rubick/004
-    url: https://app.gc.subsquid.io/beta/rubick/004/graphql
+  - name: rubick/006
+    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
   - name: magic
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
