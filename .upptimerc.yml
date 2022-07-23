@@ -43,8 +43,8 @@ sites:
       - 404
 
   # subsquid
-  - name: Subsquid v4
-    url: https://app.gc.subsquid.io/beta/rubick/004/graphql
+  # - name: Subsquid v4
+  #   url: https://app.gc.subsquid.io/beta/rubick/004/graphql
   - name: Subsquid v5
     url: https://app.gc.subsquid.io/beta/rubick/005/graphql
   - name: Subsquid v6
