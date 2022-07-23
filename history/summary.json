@@ -220,19 +220,19 @@
     "url": "https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg",
     "icon": "https://favicons.githubusercontent.com/og-image-green-seven.vercel.app",
     "slug": "seo-card-with-content",
-    "status": "down",
-    "uptime": "99.24%",
-    "uptimeDay": "99.24%",
-    "uptimeWeek": "99.24%",
-    "uptimeMonth": "99.24%",
-    "uptimeYear": "99.24%",
-    "time": 379,
-    "timeDay": 379,
-    "timeWeek": 379,
-    "timeMonth": 379,
-    "timeYear": 379,
+    "status": "up",
+    "uptime": "52.86%",
+    "uptimeDay": "52.86%",
+    "uptimeWeek": "52.86%",
+    "uptimeMonth": "52.86%",
+    "uptimeYear": "52.86%",
+    "time": 327,
+    "timeDay": 327,
+    "timeWeek": 327,
+    "timeMonth": 327,
+    "timeYear": 327,
     "dailyMinutesDown": {
-      "2022-07-23": 0
+      "2022-07-23": 37
     }
   },
   {
