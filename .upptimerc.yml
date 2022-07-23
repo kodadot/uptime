@@ -22,77 +22,122 @@ status-website:
 # See https://upptime.js.org/docs/configuration
 
 sites:
-  - name: rubick/005
-    url: https://app.gc.subsquid.io/beta/rubick/005/graphql
-  - name: rubick/006
-    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
-  - name: magic
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"nFTStatsByIssuer","variables":{"account":"EXj6NbWcqtHQmAEekdvPoPQAksFAUdkPXrgJWkqFBbHJZCE"},"query":"query nFTStatsByIssuer($account: String!) {\n  firstMint: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n    orderBy: BLOCK_NUMBER_ASC\n    first: 1\n  ) {\n    nodes {\n      collection {\n        createdAt\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  nFTCreated: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTCollected: nFTEntities(\n    filter: {issuer: {notEqualTo: $account}, currentOwner: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTSold: nFTEntities(\n    filter: {issuer: {equalTo: $account}, currentOwner: {notEqualTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n}\n"}'
-  - name: pinata
-    url: https://kodadot.mypinata.cloud/ipfs/bafkreigrljewlnnusfefnmm75rrmb46ecn2cv27dfkewzqrom6zcqetefq
-  - name: durable-jpeg.kodadot.workers.dev
+  # cloudflare workers
+  - name: durable-jpeg
     url: https://durable-jpeg.kodadot.workers.dev/batch
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"keys":["bafkreiebujmt5lzj7wv64hlso5dt3d5p237l3hwshxb4rqmt7gn3we43fe"]}'
-  - name: kodadot
-    url: https://kodadot.xyz/
-  - name: kodadot series-insight
+  - name: direct-upload
+    url: https://direct-upload.kodadot.workers.dev/
+    expectedStatusCodes:
+      - 404
+  - name: estuary
+    url: https://pinning.kodadot.workers.dev/
+    expectedStatusCodes:
+      - 404
+  - name: nft-storage
+    url: https://nft-storage.kodadot.workers.dev/
+    expectedStatusCodes:
+      - 404
+
+  # subsquid
+  - name: Subsquid v4
+    url: https://app.gc.subsquid.io/beta/rubick/004/graphql
+  - name: Subsquid v5
     url: https://app.gc.subsquid.io/beta/rubick/005/graphql
+  - name: Subsquid v6
+    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
+  - name: snekk
+    url: https://app.gc.subsquid.io/beta/snekk/003/graphql
+  - name: click
+    url: https://app.gc.subsquid.io/beta/click/001-rc0/graphql
+
+  # subsquid with query
+  - name: subsquid - series-insight
+    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"seriesInsightList","variables":{"limit":10,"offset":0,"orderBy":"volume_DESC"},"query":"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput) {\n  collectionEntities: series(\n    limit: $limit\n    orderBy: [$orderBy]\n    where: {floorPrice_isNull: false}\n  ) {\n    id\n    floorPrice\n    averagePrice\n    image\n    metadata\n    sold\n    name\n    total\n    buys\n    unique\n    uniqueCollectors\n    volume\n    __typename\n  }\n}\n"}'
-  - name: kodadot spotlight
-    url: https://app.gc.subsquid.io/beta/rubick/005/graphql
+  - name: subsquid - spotlight
+    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"spotlightLitst","variables":{"offset":0,"orderBy":"sold_DESC"},"query":"query spotlightLitst($limit: Int, $offset: Int, $orderBy: SpotlightOrderByInput) {\n  collectionEntities: spotlights(\n    limit: $limit\n    offset: $offset\n    orderBy: [$orderBy]\n  ) {\n    id\n    unique\n    sold\n    total\n    averagePrice: average\n    count: collections\n    uniqueCollectors\n    volume\n    __typename\n  }\n}\n"}'
-  - name: kodadot gallery
+
+  # netlify
+  - name: Netlify functions
+    url: https://beta.kodadot.xyz/.netlify/functions/
+
+  # vercel
+  - name: Seo Card
+    url: https://og-image-green-seven.vercel.app/
+  - name: Seo Card with Content
+    url: https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg
+
+  # magick
+  - name: magick - nFTStatsByIssuer
+    url: https://api.subquery.network/sq/vikiival/magick
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"operationName":"nFTStatsByIssuer","variables":{"account":"EXj6NbWcqtHQmAEekdvPoPQAksFAUdkPXrgJWkqFBbHJZCE"},"query":"query nFTStatsByIssuer($account: String!) {\n  firstMint: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n    orderBy: BLOCK_NUMBER_ASC\n    first: 1\n  ) {\n    nodes {\n      collection {\n        createdAt\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  nFTCreated: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTCollected: nFTEntities(\n    filter: {issuer: {notEqualTo: $account}, currentOwner: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTSold: nFTEntities(\n    filter: {issuer: {equalTo: $account}, currentOwner: {notEqualTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n}\n"}'
+  - name: magick - gallery
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"nftListWithSearch","variables":{"orderBy":"BLOCK_NUMBER_DESC","first":12,"offset":0,"denyList":["DQcegDuBQG6V99hgRd87UJ8anZxTcumJEVBAnAGomXCJ3dc","Gskn3eRyr3tDiKxhzU1MPG4ha8RFTBG9ft3C6Rrn3kGJMXn","Go6QNymw2HicMi64uiQSPyiXy68wM7dvujwR8bDJ13exPTM"],"search":[{"price":{"greaterThan":"0"}}]},"query":"query nftListWithSearch($first: Int!, $offset: Int, $denyList: [String!], $search: [NFTEntityFilter!], $orderBy: NftEntitiesOrderBy = BLOCK_NUMBER_DESC) {\n  nFTEntities(\n    orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n    first: $first\n    offset: $offset\n    filter: {burned: {distinctFrom: true}, name: {notLike: \"%Kanaria%\"}, issuer: {notIn: $denyList}, and: $search}\n  ) {\n    totalCount\n    nodes {\n      ...nft\n      ...nftDetails\n      emotes {\n        totalCount\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
-  - name: kodadot collection
+  - name: magick - collection
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"collectionListWithSearch","variables":{"orderBy":"BLOCK_NUMBER_DESC","first":9,"offset":9},"query":"query collectionListWithSearch($first: Int!, $offset: Int, $search: [CollectionEntityFilter!], $listed: [NFTEntityFilter!], $orderBy: CollectionEntitiesOrderBy = BLOCK_NUMBER_DESC) {\n  collectionEntities(\n    orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n    first: $first\n    offset: $offset\n    filter: {id: {notLike: \"%KAN%\"}, and: $search}\n  ) {\n    totalCount\n    nodes {\n      ...collection\n      ...collectionDetails\n      nfts(filter: {burned: {distinctFrom: true}, and: $listed}) {\n        nodes {\n          id\n          metadata\n          name\n          price\n          burned\n          currentOwner\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment collection on CollectionEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  __typename\n}\n\nfragment collectionDetails on CollectionEntity {\n  name\n  max\n  __typename\n}\n"}'
-  - name: kodadot nftById
+  - name: magick - nftById
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"nftById","variables":{"id":"9039302-800f8a914281765a7d-KITTY-KITTY_PARADISE_1-0000000000000001"},"query":"query nftById($id: String!) {\n  nFTEntity(id: $id) {\n    ...nft\n    ...nftDetails\n    collection {\n      name\n      __typename\n    }\n    emotes {\n      nodes {\n        caller\n        value\n        __typename\n      }\n      __typename\n    }\n    events\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
-  - name: kodadot collectionById
+  - name: magick - collectionById
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"collectionById","variables":{"orderBy":"BLOCK_NUMBER_DESC","id":"800f8a914281765a7d-KITTY","search":[{"price":{"greaterThan":"0"}}],"first":16,"offset":0},"query":"query collectionById($id: String!, $search: [NFTEntityFilter!], $orderBy: NftEntitiesOrderBy = BLOCK_NUMBER_DESC, $first: Int!, $offset: Int) {\n  collectionEntity(id: $id) {\n    ...collection\n    ...collectionDetails\n    createdAt\n    nfts(\n      orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n      first: $first\n      offset: $offset\n      filter: {burned: {distinctFrom: true}, and: $search}\n    ) {\n      totalCount\n      nodes {\n        id\n        metadata\n        name\n        price\n        burned\n        currentOwner\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment collection on CollectionEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  __typename\n}\n\nfragment collectionDetails on CollectionEntity {\n  name\n  max\n  __typename\n}\n"}'
-  - name: kodadot collectionListByAccount
+  - name: magick - collectionListByAccount
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"collectionListByAccount","variables":{"account":"FUEGFWoPPtX4XkRzEnZnMgwGKENscHXAiEZy6kcgaDz1BY6","first":20,"offset":0},"query":"query collectionListByAccount($account: String!, $first: Int!, $offset: Int) {\n  collectionEntities(\n    filter: {issuer: {equalTo: $account}, id: {notLike: \"%KAN\"}}\n    orderBy: BLOCK_NUMBER_DESC\n    first: $first\n    offset: $offset\n  ) {\n    totalCount\n    nodes {\n      ...collection\n      ...collectionDetails\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment collection on CollectionEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  __typename\n}\n\nfragment collectionDetails on CollectionEntity {\n  name\n  max\n  __typename\n}\n"}'
-  - name: kodadot firstNftByIssuer
+  - name: magick - firstNftByIssuer
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"firstNftByIssuer","variables":{"account":"FUEGFWoPPtX4XkRzEnZnMgwGKENscHXAiEZy6kcgaDz1BY6"},"query":"query firstNftByIssuer($account: String!) {\n  nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n    orderBy: BLOCK_NUMBER_DESC\n    first: 1\n  ) {\n    nodes {\n      metadata\n      __typename\n    }\n    __typename\n  }\n}\n"}'
-  - name: kodadot firstNftByIssuer
+  - name: magick - firstNftByIssuer
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"nftListByIssuer","variables":{"orderBy":"BLOCK_NUMBER_DESC","account":"FUEGFWoPPtX4XkRzEnZnMgwGKENscHXAiEZy6kcgaDz1BY6","search":[],"first":20,"offset":0},"query":"query nftListByIssuer($account: String!, $first: Int!, $offset: Int, $search: [NFTEntityFilter!], $orderBy: NftEntitiesOrderBy = BLOCK_NUMBER_DESC) {\n  nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}, and: $search}\n    orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n    first: $first\n    offset: $offset\n  ) {\n    totalCount\n    nodes {\n      ...nft\n      ...nftDetails\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
+
+  # providers
+  - name: pinata
+    url: https://kodadot.mypinata.cloud/ipfs/bafkreigrljewlnnusfefnmm75rrmb46ecn2cv27dfkewzqrom6zcqetefq
+  - name: coingecko
+    url: https://api.coingecko.com/api/v3/ping
+  - name: ramp
+    url: https://ramp.network/buy/
+  - name: clouflare ipfs
+    url: https://cloudflare-ipfs.com/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/
+
+  # pages
+  - name: KodaDot - home
+    url: https://kodadot.xyz/
