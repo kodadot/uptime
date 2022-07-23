@@ -77,18 +77,18 @@
     "icon": "https://favicons.githubusercontent.com/app.gc.subsquid.io",
     "slug": "subsquid-v4",
     "status": "up",
-    "uptime": "3.99%",
-    "uptimeDay": "3.99%",
-    "uptimeWeek": "3.99%",
-    "uptimeMonth": "3.99%",
-    "uptimeYear": "3.99%",
+    "uptime": "1.85%",
+    "uptimeDay": "1.85%",
+    "uptimeWeek": "1.85%",
+    "uptimeMonth": "1.85%",
+    "uptimeYear": "1.85%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2022-07-23": 0
+      "2022-07-23": 1
     }
   },
   {
