@@ -220,19 +220,19 @@
     "url": "https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg",
     "icon": "https://favicons.githubusercontent.com/og-image-green-seven.vercel.app",
     "slug": "seo-card-with-content",
-    "status": "down",
-    "uptime": "50.83%",
-    "uptimeDay": "50.83%",
-    "uptimeWeek": "50.83%",
-    "uptimeMonth": "50.83%",
-    "uptimeYear": "50.83%",
-    "time": 295,
-    "timeDay": 295,
-    "timeWeek": 295,
-    "timeMonth": 295,
-    "timeYear": 295,
+    "status": "up",
+    "uptime": "42.15%",
+    "uptimeDay": "42.15%",
+    "uptimeWeek": "42.15%",
+    "uptimeMonth": "42.15%",
+    "uptimeYear": "42.15%",
+    "time": 420,
+    "timeDay": 420,
+    "timeWeek": 420,
+    "timeMonth": 420,
+    "timeYear": 420,
     "dailyMinutesDown": {
-      "2022-07-23": 50
+      "2022-07-23": 71
     }
   },
   {
@@ -441,19 +441,17 @@
     "icon": "https://favicons.githubusercontent.com/cloudflare-ipfs.com",
     "slug": "clouflare-ipfs",
     "status": "up",
-    "uptime": "89.26%",
-    "uptimeDay": "89.26%",
-    "uptimeWeek": "89.26%",
-    "uptimeMonth": "89.26%",
-    "uptimeYear": "89.26%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 540,
     "timeDay": 540,
     "timeWeek": 540,
     "timeMonth": 540,
     "timeYear": 540,
-    "dailyMinutesDown": {
-      "2022-07-23": 11
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "KodaDot - home",
