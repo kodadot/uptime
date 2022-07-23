@@ -221,18 +221,18 @@
     "icon": "https://favicons.githubusercontent.com/og-image-green-seven.vercel.app",
     "slug": "seo-card-with-content",
     "status": "down",
-    "uptime": "56.97%",
-    "uptimeDay": "56.97%",
-    "uptimeWeek": "56.97%",
-    "uptimeMonth": "56.97%",
-    "uptimeYear": "56.97%",
+    "uptime": "50.83%",
+    "uptimeDay": "50.83%",
+    "uptimeWeek": "50.83%",
+    "uptimeMonth": "50.83%",
+    "uptimeYear": "50.83%",
     "time": 295,
     "timeDay": 295,
     "timeWeek": 295,
     "timeMonth": 295,
     "timeYear": 295,
     "dailyMinutesDown": {
-      "2022-07-23": 39
+      "2022-07-23": 50
     }
   },
   {
@@ -440,19 +440,19 @@
     "url": "https://cloudflare-ipfs.com/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/",
     "icon": "https://favicons.githubusercontent.com/cloudflare-ipfs.com",
     "slug": "clouflare-ipfs",
-    "status": "down",
-    "uptime": "99.70%",
-    "uptimeDay": "99.70%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.70%",
-    "uptimeYear": "99.70%",
-    "time": 713,
-    "timeDay": 713,
-    "timeWeek": 713,
-    "timeMonth": 713,
-    "timeYear": 713,
+    "status": "up",
+    "uptime": "89.26%",
+    "uptimeDay": "89.26%",
+    "uptimeWeek": "89.26%",
+    "uptimeMonth": "89.26%",
+    "uptimeYear": "89.26%",
+    "time": 540,
+    "timeDay": 540,
+    "timeWeek": 540,
+    "timeMonth": 540,
+    "timeYear": 540,
     "dailyMinutesDown": {
-      "2022-07-23": 0
+      "2022-07-23": 11
     }
   },
   {
