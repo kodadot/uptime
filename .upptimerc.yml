@@ -75,8 +75,12 @@ sites:
   # vercel
   - name: Seo Card
     url: https://og-image-green-seven.vercel.app/
+    expectedStatusCodes:
+      - 200
   - name: Seo Card with Content
     url: https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg
+    expectedStatusCodes:
+      - 200
 
   # magick
   - name: magick - nFTStatsByIssuer
