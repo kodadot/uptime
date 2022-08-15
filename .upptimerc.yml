@@ -83,12 +83,6 @@ sites:
       - 200
 
   # magick
-  - name: magick - nFTStatsByIssuer
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"nFTStatsByIssuer","variables":{"account":"EXj6NbWcqtHQmAEekdvPoPQAksFAUdkPXrgJWkqFBbHJZCE"},"query":"query nFTStatsByIssuer($account: String!) {\n  firstMint: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n    orderBy: BLOCK_NUMBER_ASC\n    first: 1\n  ) {\n    nodes {\n      collection {\n        createdAt\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  nFTCreated: nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTCollected: nFTEntities(\n    filter: {issuer: {notEqualTo: $account}, currentOwner: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n  nFTSold: nFTEntities(\n    filter: {issuer: {equalTo: $account}, currentOwner: {notEqualTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n  ) {\n    totalCount\n    __typename\n  }\n}\n"}'
   - name: magick - gallery
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
@@ -107,12 +101,6 @@ sites:
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"nftById","variables":{"id":"9039302-800f8a914281765a7d-KITTY-KITTY_PARADISE_1-0000000000000001"},"query":"query nftById($id: String!) {\n  nFTEntity(id: $id) {\n    ...nft\n    ...nftDetails\n    collection {\n      name\n      __typename\n    }\n    emotes {\n      nodes {\n        caller\n        value\n        __typename\n      }\n      __typename\n    }\n    events\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
-  - name: magick - collectionById
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"collectionById","variables":{"orderBy":"BLOCK_NUMBER_DESC","id":"800f8a914281765a7d-KITTY","search":[{"price":{"greaterThan":"0"}}],"first":16,"offset":0},"query":"query collectionById($id: String!, $search: [NFTEntityFilter!], $orderBy: NftEntitiesOrderBy = BLOCK_NUMBER_DESC, $first: Int!, $offset: Int) {\n  collectionEntity(id: $id) {\n    ...collection\n    ...collectionDetails\n    createdAt\n    nfts(\n      orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n      first: $first\n      offset: $offset\n      filter: {burned: {distinctFrom: true}, and: $search}\n    ) {\n      totalCount\n      nodes {\n        id\n        metadata\n        name\n        price\n        burned\n        currentOwner\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment collection on CollectionEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  __typename\n}\n\nfragment collectionDetails on CollectionEntity {\n  name\n  max\n  __typename\n}\n"}'
   - name: magick - collectionListByAccount
     url: https://api.subquery.network/sq/vikiival/magick
     method: POST
