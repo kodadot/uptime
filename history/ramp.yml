@@ -1,7 +1,7 @@
 url: https://ramp.network/buy/
-status: down
-code: 500
-responseTime: 1180
-lastUpdated: 2022-08-16T14:40:16.262Z
+status: up
+code: 200
+responseTime: 248
+lastUpdated: 2022-08-16T14:57:42.498Z
 startTime: Sat Jul 23 2022 12:36:33 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
