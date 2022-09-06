@@ -15,7 +15,7 @@ status-website:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/kodadot/nft-gallery
     - title: Kodadot NFT Marketplace
       href: https://kodadot.xyz/
 # Upptime also supports notifications, assigning issues, and more
@@ -43,26 +43,26 @@ sites:
       - 404
 
   # subsquid
-  # - name: Subsquid v4
-  #   url: https://app.gc.subsquid.io/beta/rubick/004/graphql
-  - name: Subsquid v5
-    url: https://app.gc.subsquid.io/beta/rubick/005/graphql
-  - name: Subsquid v6
+  - name: Rubick v6
     url: https://app.gc.subsquid.io/beta/rubick/006/graphql
+  - name: Rubick
+    url: https://squid.subsquid.io/rubick/v/007/graphql
   - name: snekk
-    url: https://app.gc.subsquid.io/beta/snekk/003/graphql
+    url: https://squid.subsquid.io/snekk/v/003/graphql
+  - name: snekkv2
+    url: https://squid.subsquid.io/snekk/v/004/graphql
   - name: click
-    url: https://app.gc.subsquid.io/beta/click/001-rc0/graphql
+    url: https://squid.subsquid.io/click/v/001/graphql
 
-  # subsquid with query
-  - name: subsquid - series-insight
-    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
+  # rubick with queries
+  - name: rubick - series-insight
+    url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"operationName":"seriesInsightList","variables":{"limit":10,"offset":0,"orderBy":"volume_DESC"},"query":"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput) {\n  collectionEntities: series(\n    limit: $limit\n    orderBy: [$orderBy]\n    where: {floorPrice_isNull: false}\n  ) {\n    id\n    floorPrice\n    averagePrice\n    image\n    metadata\n    sold\n    name\n    total\n    buys\n    unique\n    uniqueCollectors\n    volume\n    __typename\n  }\n}\n"}'
-  - name: subsquid - spotlight
-    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
+  - name: rubick - spotlight
+    url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
       - "Content-Type: application/json"
@@ -81,44 +81,6 @@ sites:
     url: https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg
     expectedStatusCodes:
       - 200
-
-  # magick
-  - name: magick - gallery
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"nftListWithSearch","variables":{"orderBy":"BLOCK_NUMBER_DESC","first":12,"offset":0,"denyList":["DQcegDuBQG6V99hgRd87UJ8anZxTcumJEVBAnAGomXCJ3dc","Gskn3eRyr3tDiKxhzU1MPG4ha8RFTBG9ft3C6Rrn3kGJMXn","Go6QNymw2HicMi64uiQSPyiXy68wM7dvujwR8bDJ13exPTM"],"search":[{"price":{"greaterThan":"0"}}]},"query":"query nftListWithSearch($first: Int!, $offset: Int, $denyList: [String!], $search: [NFTEntityFilter!], $orderBy: NftEntitiesOrderBy = BLOCK_NUMBER_DESC) {\n  nFTEntities(\n    orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n    first: $first\n    offset: $offset\n    filter: {burned: {distinctFrom: true}, name: {notLike: \"%Kanaria%\"}, issuer: {notIn: $denyList}, and: $search}\n  ) {\n    totalCount\n    nodes {\n      ...nft\n      ...nftDetails\n      emotes {\n        totalCount\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
-  - name: magick - collection
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"collectionListWithSearch","variables":{"orderBy":"BLOCK_NUMBER_DESC","first":9,"offset":9},"query":"query collectionListWithSearch($first: Int!, $offset: Int, $search: [CollectionEntityFilter!], $listed: [NFTEntityFilter!], $orderBy: CollectionEntitiesOrderBy = BLOCK_NUMBER_DESC) {\n  collectionEntities(\n    orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n    first: $first\n    offset: $offset\n    filter: {id: {notLike: \"%KAN%\"}, and: $search}\n  ) {\n    totalCount\n    nodes {\n      ...collection\n      ...collectionDetails\n      nfts(filter: {burned: {distinctFrom: true}, and: $listed}) {\n        nodes {\n          id\n          metadata\n          name\n          price\n          burned\n          currentOwner\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment collection on CollectionEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  __typename\n}\n\nfragment collectionDetails on CollectionEntity {\n  name\n  max\n  __typename\n}\n"}'
-  - name: magick - nftById
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"nftById","variables":{"id":"9039302-800f8a914281765a7d-KITTY-KITTY_PARADISE_1-0000000000000001"},"query":"query nftById($id: String!) {\n  nFTEntity(id: $id) {\n    ...nft\n    ...nftDetails\n    collection {\n      name\n      __typename\n    }\n    emotes {\n      nodes {\n        caller\n        value\n        __typename\n      }\n      __typename\n    }\n    events\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
-  - name: magick - collectionListByAccount
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"collectionListByAccount","variables":{"account":"FUEGFWoPPtX4XkRzEnZnMgwGKENscHXAiEZy6kcgaDz1BY6","first":20,"offset":0},"query":"query collectionListByAccount($account: String!, $first: Int!, $offset: Int) {\n  collectionEntities(\n    filter: {issuer: {equalTo: $account}, id: {notLike: \"%KAN\"}}\n    orderBy: BLOCK_NUMBER_DESC\n    first: $first\n    offset: $offset\n  ) {\n    totalCount\n    nodes {\n      ...collection\n      ...collectionDetails\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment collection on CollectionEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  __typename\n}\n\nfragment collectionDetails on CollectionEntity {\n  name\n  max\n  __typename\n}\n"}'
-  - name: magick - firstNftByIssuer
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"firstNftByIssuer","variables":{"account":"FUEGFWoPPtX4XkRzEnZnMgwGKENscHXAiEZy6kcgaDz1BY6"},"query":"query firstNftByIssuer($account: String!) {\n  nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}}\n    orderBy: BLOCK_NUMBER_DESC\n    first: 1\n  ) {\n    nodes {\n      metadata\n      __typename\n    }\n    __typename\n  }\n}\n"}'
-  - name: magick - firstNftByIssuer
-    url: https://api.subquery.network/sq/vikiival/magick
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"nftListByIssuer","variables":{"orderBy":"BLOCK_NUMBER_DESC","account":"FUEGFWoPPtX4XkRzEnZnMgwGKENscHXAiEZy6kcgaDz1BY6","search":[],"first":20,"offset":0},"query":"query nftListByIssuer($account: String!, $first: Int!, $offset: Int, $search: [NFTEntityFilter!], $orderBy: NftEntitiesOrderBy = BLOCK_NUMBER_DESC) {\n  nFTEntities(\n    filter: {issuer: {equalTo: $account}, name: {notLike: \"%Kanaria%\"}, burned: {distinctFrom: true}, and: $search}\n    orderBy: [$orderBy, BLOCK_NUMBER_DESC]\n    first: $first\n    offset: $offset\n  ) {\n    totalCount\n    nodes {\n      ...nft\n      ...nftDetails\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment nft on NFTEntity {\n  id\n  metadata\n  issuer\n  currentOwner\n  blockNumber\n  collectionId\n  burned\n  __typename\n}\n\nfragment nftDetails on NFTEntity {\n  name\n  sn\n  price\n  __typename\n}\n"}'
 
   # providers
   - name: pinata
