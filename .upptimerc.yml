@@ -43,9 +43,9 @@ sites:
       - 404
 
   # subsquid
-  - name: Rubick v6
+  - name: rubick v6
     url: https://app.gc.subsquid.io/beta/rubick/006/graphql
-  - name: Rubick
+  - name: rubick
     url: https://squid.subsquid.io/rubick/v/007/graphql
   - name: snekk
     url: https://squid.subsquid.io/snekk/v/003/graphql
