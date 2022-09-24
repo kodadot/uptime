@@ -9,7 +9,7 @@ status-website:
   baseUrl: /kodadot-status
   logoUrl: https://kodadot.xyz/_nuxt/img/Koda_Beta.17049af.svg
   name: KodaDot NFT Marketplace
-  introTitle: "[KodaDot](https://kodadot.xyz/) is developed as open source NFT marketplace and ultimately created as public goods of Internet, currently running on [Kusama.network](https://kusama.network/)"
+  introTitle: '[KodaDot](https://kodadot.xyz/) is developed as open source NFT marketplace and ultimately created as public goods of Internet, currently running on [Kusama.network](https://kusama.network/)'
   # introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Marketplace
@@ -25,7 +25,7 @@ sites:
     url: https://durable-jpeg.kodadot.workers.dev/batch
     method: POST
     headers:
-      - "Content-Type: application/json"
+      - 'Content-Type: application/json'
     body: '{"keys":["bafkreiebujmt5lzj7wv64hlso5dt3d5p237l3hwshxb4rqmt7gn3we43fe"]}'
   - name: direct-upload
     url: https://direct-upload.kodadot.workers.dev/
@@ -57,14 +57,26 @@ sites:
     url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"seriesInsightList","variables":{"limit":10,"offset":0,"orderBy":"volume_DESC"},"query":"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput) {\n  collectionEntities: series(\n    limit: $limit\n    orderBy: [$orderBy]\n    where: {floorPrice_isNull: false}\n  ) {\n    id\n    floorPrice\n    averagePrice\n    image\n    metadata\n    sold\n    name\n    total\n    buys\n    unique\n    uniqueCollectors\n    volume\n    __typename\n  }\n}\n"}'
+      - 'Content-Type: application/json'
+    body: '{\"operationName\":\"seriesInsightList\",\"variables\":{\"limit\":50,\"offset\":0,\"orderBy\":\"volume_DESC\",\"where\":{\"floorPrice_isNull\":false}},\"query\":\"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput!, $where: SeriesWhereInput) {\\n  collectionEntities: series(limit: $limit, orderBy: [$orderBy], where: $where) {\\n    id\\n    floorPrice\\n    highestSale\\n    averagePrice\\n    image\\n    metadata\\n    sold\\n    name\\n    total\\n    buys\\n    unique\\n    uniqueCollectors\\n    volume\\n    emoteCount\\n    __typename\\n  }\\n}\\n\"}'
   - name: rubick - spotlight
     url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
-      - "Content-Type: application/json"
-    body: '{"operationName":"spotlightLitst","variables":{"offset":0,"orderBy":"sold_DESC"},"query":"query spotlightLitst($limit: Int, $offset: Int, $orderBy: SpotlightOrderByInput) {\n  collectionEntities: spotlights(\n    limit: $limit\n    offset: $offset\n    orderBy: [$orderBy]\n  ) {\n    id\n    unique\n    sold\n    total\n    averagePrice: average\n    count: collections\n    uniqueCollectors\n    volume\n    __typename\n  }\n}\n"}'
+      - 'Content-Type: application/json'
+    body: '{\"operationName\":\"spotlightLitst\",\"variables\":{\"offset\":0,\"orderBy\":\"sold_DESC\"},\"query\":\"query spotlightLitst($limit: Int, $offset: Int, $orderBy: SpotlightOrderByInput!, $where: SpotlightWhereInput) {\\n  collectionEntities: spotlights(\\n    limit: $limit\\n    offset: $offset\\n    orderBy: [$orderBy]\\n    where: $where\\n  ) {\\n    id\\n    unique\\n    sold\\n    total\\n    averagePrice: average\\n    count: collections\\n    uniqueCollectors\\n    volume\\n    __typename\\n  }\\n}\\n\"}'
+  - name: rubick - sales
+    url: https://squid.subsquid.io/rubick/v/007/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: '{\"operationName\":\"SalesFeed\",\"variables\":{},\"query\":\"query SalesFeed {\\n  salesFeed {\\n    id\\n    buyer\\n    collectionId\\n    collectionName\\n    image\\n    issuer\\n    name\\n    salePrice\\n    timestamp\\n    blockNumber\\n    __typename\\n  }\\n}\\n\"}'
+  - name: rubick - hot
+    url: https://squid.subsquid.io/rubick/v/007/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: '{\"operationName\":\"hotNfts\",\"variables\":{\"orderBy\":\"timestamp_DESC\",\"gte\":\"2022-09-17T06:15:12.694Z\"},\"query\":\"query hotNfts($orderBy: [EventOrderByInput!] = timestamp_DESC, $gte: DateTime!) {\\n  result: events(\\n    where: {interaction_eq: BUY, timestamp_gte: $gte}\\n    orderBy: $orderBy\\n  ) {\\n    timestamp\\n    interaction\\n    nft {\\n      collection {\\n        name\\n        id\\n        __typename\\n      }\\n      __typename\\n    }\\n    meta\\n    __typename\\n  }\\n}\\n\"}'
 
   # netlify
   - name: Netlify functions
