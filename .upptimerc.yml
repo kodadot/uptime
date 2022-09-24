@@ -53,30 +53,30 @@ sites:
     url: https://squid.subsquid.io/click/v/001/graphql
 
   # rubick with queries
-  - name: rubick - series-insight
-    url: https://squid.subsquid.io/rubick/v/007/graphql
-    method: POST
-    headers:
-      - 'Content-Type: application/json'
-    body: '{\"operationName\":\"seriesInsightList\",\"variables\":{\"limit\":50,\"offset\":0,\"orderBy\":\"volume_DESC\",\"where\":{\"floorPrice_isNull\":false}},\"query\":\"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput!, $where: SeriesWhereInput) {\\n  collectionEntities: series(limit: $limit, orderBy: [$orderBy], where: $where) {\\n    id\\n    floorPrice\\n    highestSale\\n    averagePrice\\n    image\\n    metadata\\n    sold\\n    name\\n    total\\n    buys\\n    unique\\n    uniqueCollectors\\n    volume\\n    emoteCount\\n    __typename\\n  }\\n}\\n\"}'
   - name: rubick - spotlight
     url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
-    body: '{\"operationName\":\"spotlightLitst\",\"variables\":{\"offset\":0,\"orderBy\":\"sold_DESC\"},\"query\":\"query spotlightLitst($limit: Int, $offset: Int, $orderBy: SpotlightOrderByInput!, $where: SpotlightWhereInput) {\\n  collectionEntities: spotlights(\\n    limit: $limit\\n    offset: $offset\\n    orderBy: [$orderBy]\\n    where: $where\\n  ) {\\n    id\\n    unique\\n    sold\\n    total\\n    averagePrice: average\\n    count: collections\\n    uniqueCollectors\\n    volume\\n    __typename\\n  }\\n}\\n\"}'
+    body: '{"operationName":"spotlightLitst","variables":{"offset":0,"orderBy":"sold_DESC"},"query":"query spotlightLitst($limit: Int, $offset: Int, $orderBy: SpotlightOrderByInput\u0021, $where: SpotlightWhereInput) {\\n  collectionEntities: spotlights(\\n    limit: $limit\\n    offset: $offset\\n    orderBy: [$orderBy]\\n    where: $where\\n  ) {\\n    id\\n    unique\\n    sold\\n    total\\n    averagePrice: average\\n    count: collections\\n    uniqueCollectors\\n    volume\\n    __typename\\n  }\\n}\\n"}'
+  - name: rubick - series-insight
+    url: https://squid.subsquid.io/rubick/v/007/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: '{"operationName":"seriesInsightList","variables":{"limit":50,"offset":0,"orderBy":"volume_DESC","where":{"floorPrice_isNull":false}},"query":"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput\u0021, $where: SeriesWhereInput) {\\n  collectionEntities: series(limit: $limit, orderBy: [$orderBy], where: $where) {\\n    id\\n    floorPrice\\n    highestSale\\n    averagePrice\\n    image\\n    metadata\\n    sold\\n    name\\n    total\\n    buys\\n    unique\\n    uniqueCollectors\\n    volume\\n    emoteCount\\n    __typename\\n  }\\n}\\n"}'
   - name: rubick - sales
     url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
-    body: '{\"operationName\":\"SalesFeed\",\"variables\":{},\"query\":\"query SalesFeed {\\n  salesFeed {\\n    id\\n    buyer\\n    collectionId\\n    collectionName\\n    image\\n    issuer\\n    name\\n    salePrice\\n    timestamp\\n    blockNumber\\n    __typename\\n  }\\n}\\n\"}'
+    body: '{"operationName":"SalesFeed","variables":{},"query":"query SalesFeed {\n  salesFeed {\n    id\n    buyer\n    collectionId\n    collectionName\n    image\n    issuer\n    name\n    salePrice\n    timestamp\n    blockNumber\n    __typename\n  }\n}\n"}'
   - name: rubick - hot
     url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
-    body: '{\"operationName\":\"hotNfts\",\"variables\":{\"orderBy\":\"timestamp_DESC\",\"gte\":\"2022-09-17T06:15:12.694Z\"},\"query\":\"query hotNfts($orderBy: [EventOrderByInput!] = timestamp_DESC, $gte: DateTime!) {\\n  result: events(\\n    where: {interaction_eq: BUY, timestamp_gte: $gte}\\n    orderBy: $orderBy\\n  ) {\\n    timestamp\\n    interaction\\n    nft {\\n      collection {\\n        name\\n        id\\n        __typename\\n      }\\n      __typename\\n    }\\n    meta\\n    __typename\\n  }\\n}\\n\"}'
+    body: '{"operationName":"hotNfts","variables":{"orderBy":"timestamp_DESC","gte":"2022-09-17T06:26:12.977Z"},"query":"query hotNfts($orderBy: [EventOrderByInput\u0021] = timestamp_DESC, $gte: DateTime\u0021) {\\n  result: events(\\n    where: {interaction_eq: BUY, timestamp_gte: $gte}\\n    orderBy: $orderBy\\n  ) {\\n    timestamp\\n    interaction\\n    nft {\\n      collection {\\n        name\\n        id\\n        __typename\\n      }\\n      __typename\\n    }\\n    meta\\n    __typename\\n  }\\n}\\n"}'
 
   # netlify
   - name: Netlify functions
