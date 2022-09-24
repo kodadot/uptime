@@ -115,12 +115,12 @@ sites:
     url: https://kodadot.mypinata.cloud/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
   - name: nftstorage.link
     url: https://bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea.ipfs.nftstorage.link/
+  - name: clouflare ipfs
+    url: https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
   - name: coingecko
     url: https://api.coingecko.com/api/v3/ping
   - name: ramp
     url: https://ramp.network/buy/
-  - name: clouflare ipfs
-    url: https://cloudflare-ipfs.com/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/
 
   # pages
   - name: KodaDot - home
