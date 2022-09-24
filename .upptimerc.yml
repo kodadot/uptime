@@ -46,9 +46,9 @@ sites:
   - name: rubick
     url: https://squid.subsquid.io/rubick/v/007/graphql
   - name: snekk
-    url: https://squid.subsquid.io/snekk/v/003/graphql
-  - name: snekkv2
     url: https://squid.subsquid.io/snekk/v/004/graphql
+  - name: snekkv2
+    url: https://squid.subsquid.io/snekk/v/005/graphql
   - name: click
     url: https://squid.subsquid.io/click/v/001/graphql
 
