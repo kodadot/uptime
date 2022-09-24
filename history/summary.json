@@ -114,7 +114,7 @@
     "slug": "snekk",
     "status": "down",
     "uptime": "95.48%",
-    "uptimeDay": "0.05%",
+    "uptimeDay": "0.39%",
     "uptimeWeek": "60.33%",
     "uptimeMonth": "90.87%",
     "uptimeYear": "95.48%",
@@ -176,46 +176,46 @@
     }
   },
   {
-    "name": "rubick - series-insight",
-    "url": "https://squid.subsquid.io/rubick/v/007/graphql",
-    "icon": "https://favicons.githubusercontent.com/squid.subsquid.io",
-    "slug": "rubick-series-insight",
-    "status": "down",
-    "uptime": "84.24%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "60.10%",
-    "uptimeMonth": "84.24%",
-    "uptimeYear": "84.24%",
-    "time": 177,
-    "timeDay": 162,
-    "timeWeek": 169,
-    "timeMonth": 177,
-    "timeYear": 177,
-    "dailyMinutesDown": {
-      "2022-09-24": 383,
-      "2022-09-23": 1440,
-      "2022-09-22": 1440,
-      "2022-09-21": 759
-    }
-  },
-  {
     "name": "rubick - spotlight",
     "url": "https://squid.subsquid.io/rubick/v/007/graphql",
     "icon": "https://favicons.githubusercontent.com/squid.subsquid.io",
     "slug": "rubick-spotlight",
     "status": "down",
-    "uptime": "84.24%",
+    "uptime": "84.22%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "60.10%",
-    "uptimeMonth": "84.24%",
-    "uptimeYear": "84.24%",
+    "uptimeWeek": "60.05%",
+    "uptimeMonth": "84.22%",
+    "uptimeYear": "84.22%",
     "time": 422,
     "timeDay": 160,
     "timeWeek": 363,
     "timeMonth": 422,
     "timeYear": 422,
     "dailyMinutesDown": {
-      "2022-09-24": 383,
+      "2022-09-24": 388,
+      "2022-09-23": 1440,
+      "2022-09-22": 1440,
+      "2022-09-21": 759
+    }
+  },
+  {
+    "name": "rubick - series-insight",
+    "url": "https://squid.subsquid.io/rubick/v/007/graphql",
+    "icon": "https://favicons.githubusercontent.com/squid.subsquid.io",
+    "slug": "rubick-series-insight",
+    "status": "down",
+    "uptime": "84.22%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "60.05%",
+    "uptimeMonth": "84.22%",
+    "uptimeYear": "84.22%",
+    "time": 177,
+    "timeDay": 162,
+    "timeWeek": 169,
+    "timeMonth": 177,
+    "timeYear": 177,
+    "dailyMinutesDown": {
+      "2022-09-24": 388,
       "2022-09-23": 1440,
       "2022-09-22": 1440,
       "2022-09-21": 759
@@ -227,18 +227,18 @@
     "icon": "https://favicons.githubusercontent.com/squid.subsquid.io",
     "slug": "rubick-sales",
     "status": "up",
-    "uptime": "0.43%",
-    "uptimeDay": "0.43%",
-    "uptimeWeek": "0.43%",
-    "uptimeMonth": "0.43%",
-    "uptimeYear": "0.43%",
+    "uptime": "3.65%",
+    "uptimeDay": "3.65%",
+    "uptimeWeek": "3.65%",
+    "uptimeMonth": "3.65%",
+    "uptimeYear": "3.65%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2022-09-24": 3
+      "2022-09-24": 8
     }
   },
   {
@@ -247,18 +247,18 @@
     "icon": "https://favicons.githubusercontent.com/squid.subsquid.io",
     "slug": "rubick-hot",
     "status": "up",
-    "uptime": "0.33%",
-    "uptimeDay": "0.33%",
-    "uptimeWeek": "0.33%",
-    "uptimeMonth": "0.33%",
-    "uptimeYear": "0.33%",
+    "uptime": "0.09%",
+    "uptimeDay": "0.09%",
+    "uptimeWeek": "0.09%",
+    "uptimeMonth": "0.09%",
+    "uptimeYear": "0.09%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2022-09-24": 3
+      "2022-09-24": 8
     }
   },
   {
