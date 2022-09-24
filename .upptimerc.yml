@@ -112,7 +112,9 @@ sites:
 
   # providers
   - name: pinata
-    url: https://kodadot.mypinata.cloud/ipfs/bafkreigrljewlnnusfefnmm75rrmb46ecn2cv27dfkewzqrom6zcqetefq
+    url: https://kodadot.mypinata.cloud/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
+  - name: nftstorage.link
+    url: https://nftstorage.link/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
   - name: coingecko
     url: https://api.coingecko.com/api/v3/ping
   - name: ramp
