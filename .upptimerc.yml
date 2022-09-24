@@ -53,6 +53,24 @@ sites:
     url: https://squid.subsquid.io/click/v/001/graphql
 
   # rubick with queries
+  - name: rubick - curated list
+    url: https://squid.subsquid.io/rubick/v/007/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: '{"query":"query collectionCuratedList($list: [String!]) {\n  collectionEntities(where: {id_in: $list}) {\n    id\n    issuer\n    name\n    meta {\n      id\n      name\n      image\n      __typename\n    }\n    __typename\n  }\n}\n","variables":{"list":["800f8a914281765a7d-KITTY","2075be44ea4b9e422d-🐺","160a6f4320f11acb25-LCKWV","0a24c7876a892acb79-RADTOADZ","7cf9daa38281a57331-BSS","900D19DC7D3C444E4C-KSMBOT"]}}'
+  - name: rubick - newest list
+    url: https://squid.subsquid.io/rubick/v/007/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: '{"query":"query lastNftListByEvent($limit: Float!, $event: String!) {\n  events: lastEvent(limit: $limit, offset: 0, interaction: $event) {\n    meta: value\n    timestamp\n    nftId: id\n    name\n    issuer\n    currentOwner\n    metadata\n    animationUrl\n    image\n    collection: name\n    __typename\n  }\n}\n","variables":{"limit":10,"event":"LIST"}}'
+  - name: rubick - latest sales
+    url: https://squid.subsquid.io/rubick/v/007/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: '{"query":"query lastNftListByEvent($limit: Float!, $event: String!) {\n  events: lastEvent(limit: $limit, offset: 0, interaction: $event) {\n    meta: value\n    timestamp\n    nftId: id\n    name\n    issuer\n    currentOwner\n    metadata\n    animationUrl\n    image\n    collection: name\n    __typename\n  }\n}\n","variables":{"limit":10,"event":"BUY"}}'
   - name: rubick - spotlight
     url: https://squid.subsquid.io/rubick/v/007/graphql
     method: POST
