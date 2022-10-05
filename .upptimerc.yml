@@ -1,12 +1,12 @@
 # Change these first
 owner: kodadot # Your GitHub organization or username, where this repository lives
-repo: kodadot-status # The name of this repository
+repo: uptime # The name of this repository
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  baseUrl: /kodadot-status
+  baseUrl: /uptime
   logoUrl: https://kodadot.xyz/_nuxt/img/Koda_Beta.17049af.svg
   name: KodaDot NFT Marketplace
   introTitle: '[KodaDot](https://kodadot.xyz/) is developed as open source NFT marketplace and ultimately created as public goods of Internet, currently running on [Kusama.network](https://kusama.network/)'
@@ -41,14 +41,14 @@ sites:
       - 404
 
   # subsquid
-  - name: rubick v6
-    url: https://app.gc.subsquid.io/beta/rubick/006/graphql
-  - name: rubick
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+  - name: antick
+    url: https://squid.subsquid.io/antick/v/001-rc0/graphql
   - name: snekk
     url: https://squid.subsquid.io/snekk/v/004/graphql
-  - name: snekkv2
+  - name: bsx
     url: https://squid.subsquid.io/snekk/v/005/graphql
+  - name: rubick
+    url: https://squid.subsquid.io/rubick/v/007/graphql
   - name: click
     url: https://squid.subsquid.io/click/v/001/graphql
 
