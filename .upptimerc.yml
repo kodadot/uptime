@@ -5,7 +5,7 @@ repo: uptime # The name of this repository
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
+  cname: kodadot.js.org
   baseUrl: /uptime
   logoUrl: https://kodadot.xyz/_nuxt/img/Koda_Beta.17049af.svg
   name: KodaDot NFT Marketplace
