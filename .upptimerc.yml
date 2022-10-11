@@ -50,7 +50,7 @@ sites:
   - name: rubick
     url: https://squid.subsquid.io/rubick/v/007/graphql
   - name: click
-    url: https://squid.subsquid.io/click/v/001/graphql
+    url: https://squid.subsquid.io/click/v/002/graphql
 
   # rubick with queries
   - name: rubick - curated list
