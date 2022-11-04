@@ -1,7 +1,7 @@
 url: https://beta.kodadot.xyz/.netlify/functions/
-status: up
-code: 200
-responseTime: 240
-lastUpdated: 2022-11-03T23:12:47.660Z
+status: down
+code: 500
+responseTime: 2130
+lastUpdated: 2022-11-04T13:24:07.551Z
 startTime: Sat Jul 23 2022 12:36:22 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
