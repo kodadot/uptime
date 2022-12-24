@@ -399,17 +399,17 @@
     "url": "https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg",
     "icon": "https://icons.duckduckgo.com/ip3/og-image-green-seven.vercel.app.ico",
     "slug": "seo-card-with-content",
-    "status": "up",
-    "uptime": "98.05%",
-    "uptimeDay": "88.38%",
+    "status": "down",
+    "uptime": "98.07%",
+    "uptimeDay": "88.35%",
     "uptimeWeek": "85.78%",
-    "uptimeMonth": "91.61%",
-    "uptimeYear": "98.05%",
-    "time": 691,
-    "timeDay": 223,
-    "timeWeek": 466,
-    "timeMonth": 704,
-    "timeYear": 691,
+    "uptimeMonth": "91.60%",
+    "uptimeYear": "98.07%",
+    "time": 690,
+    "timeDay": 209,
+    "timeWeek": 462,
+    "timeMonth": 701,
+    "timeYear": 690,
     "dailyMinutesDown": {
       "2022-12-24": 13,
       "2022-12-23": 197,
@@ -442,8 +442,7 @@
       "2022-09-08": 19,
       "2022-09-05": 30,
       "2022-09-04": 32,
-      "2022-09-01": 79,
-      "2022-08-12": 53
+      "2022-09-01": 79
     }
   },
   {
