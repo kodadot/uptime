@@ -48,49 +48,49 @@ sites:
   - name: bsx
     url: https://squid.subsquid.io/snekk/v/005/graphql
   - name: rubick
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
   - name: click
     url: https://squid.subsquid.io/click/v/002/graphql
 
   # rubick with queries
   - name: rubick - curated list
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
     body: '{"query":"query collectionCuratedList($list: [String!]) {\n  collectionEntities(where: {id_in: $list}) {\n    id\n    issuer\n    name\n    meta {\n      id\n      name\n      image\n      __typename\n    }\n    __typename\n  }\n}\n","variables":{"list":["800f8a914281765a7d-KITTY","2075be44ea4b9e422d-🐺","160a6f4320f11acb25-LCKWV","0a24c7876a892acb79-RADTOADZ","7cf9daa38281a57331-BSS","900D19DC7D3C444E4C-KSMBOT"]}}'
   - name: rubick - newest list
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
     body: '{"query":"query lastNftListByEvent($limit: Float!, $event: String!) {\n  events: lastEvent(limit: $limit, offset: 0, interaction: $event) {\n    meta: value\n    timestamp\n    nftId: id\n    name\n    issuer\n    currentOwner\n    metadata\n    animationUrl\n    image\n    collection: name\n    __typename\n  }\n}\n","variables":{"limit":10,"event":"LIST"}}'
   - name: rubick - latest sales
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
     body: '{"query":"query lastNftListByEvent($limit: Float!, $event: String!) {\n  events: lastEvent(limit: $limit, offset: 0, interaction: $event) {\n    meta: value\n    timestamp\n    nftId: id\n    name\n    issuer\n    currentOwner\n    metadata\n    animationUrl\n    image\n    collection: name\n    __typename\n  }\n}\n","variables":{"limit":10,"event":"BUY"}}'
   - name: rubick - spotlight
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
     body: '{"query":"query spotlightLitst($limit: Int, $offset: Int, $orderBy: SpotlightOrderByInput!, $where: SpotlightWhereInput) {\n  collectionEntities: spotlights(\n    limit: $limit\n    offset: $offset\n    orderBy: [$orderBy]\n    where: $where\n  ) {\n    id\n    unique\n    sold\n    total\n    averagePrice: average\n    count: collections\n    uniqueCollectors\n    volume\n    __typename\n  }\n}\n","variables":{"offset":0,"orderBy":"sold_DESC"}}'
   - name: rubick - series-insight
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
     body: '{"query":"query seriesInsightList($limit: Int, $orderBy: SeriesOrderByInput!, $where: SeriesWhereInput) {\n  collectionEntities: series(limit: $limit, orderBy: [$orderBy], where: $where) {\n    id\n    floorPrice\n    highestSale\n    averagePrice\n    image\n    metadata\n    sold\n    name\n    total\n    buys\n    unique\n    uniqueCollectors\n    volume\n    emoteCount\n    __typename\n  }\n}\n","variables":{"limit":50,"offset":0,"orderBy":"volume_DESC","where":{"floorPrice_isNull":false}}}'
   - name: rubick - sales
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
     body: '{"operationName":"SalesFeed","variables":{},"query":"query SalesFeed {\n  salesFeed {\n    id\n    buyer\n    collectionId\n    collectionName\n    image\n    issuer\n    name\n    salePrice\n    timestamp\n    blockNumber\n    __typename\n  }\n}\n"}'
   - name: rubick - hot
-    url: https://squid.subsquid.io/rubick/v/007/graphql
+    url: https://squid.subsquid.io/rubick/graphql
     method: POST
     headers:
       - 'Content-Type: application/json'
