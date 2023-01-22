@@ -106,17 +106,19 @@ sites:
     expectedStatusCodes:
       - 200
   - name: Seo Card with Content
-    url: https://og-image-green-seven.vercel.app/Kusama%20Bot%20120.jpeg?price=&image=https://kodadot.mypinata.cloud/ipfs/bafkreiefbdznbjx7ixsdvezdtupj7xpdmgigm7uygl26mk2bozwolemodi&mime=image/jpeg
+    url: https://og-image-green-seven.vercel.app/%20Luna%20Witches%20%233.jpeg?price=0.5500KSM&image=https://image.w.kodadot.xyz/ipfs/bafybeifkgsyqa6h5mniydsz75yzd7qrffq5jh3osgjlafab2pnlsutsyvy&mime=image/jpeg
     expectedStatusCodes:
       - 200
 
   # providers
-  - name: pinata
-    url: https://kodadot.mypinata.cloud/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
+  - name: image-gateway
+    url: https://image.w.kodadot.xyz/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
   - name: nftstorage.link
     url: https://bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea.ipfs.nftstorage.link/
   - name: clouflare ipfs
     url: https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
+  - name: dweb-link
+    url: https://dweb.link/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
   - name: coingecko
     url: https://api.coingecko.com/api/v3/ping
   - name: ramp
