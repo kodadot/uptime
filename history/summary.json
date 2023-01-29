@@ -8,12 +8,12 @@
     "uptime": "99.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.99%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "99.90%",
     "time": 318,
     "timeDay": 312,
     "timeWeek": 344,
-    "timeMonth": 344,
+    "timeMonth": 337,
     "timeYear": 318,
     "dailyMinutesDown": {
       "2022-12-29": 262
@@ -526,9 +526,9 @@
     "url": "https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea",
     "icon": "https://icons.duckduckgo.com/ip3/cloudflare-ipfs.com.ico",
     "slug": "clouflare-ipfs",
-    "status": "up",
+    "status": "down",
     "uptime": "99.12%",
-    "uptimeDay": "96.61%",
+    "uptimeDay": "96.58%",
     "uptimeWeek": "96.79%",
     "uptimeMonth": "98.57%",
     "uptimeYear": "99.12%",
@@ -588,8 +588,7 @@
       "2022-09-16": 1,
       "2022-09-15": 33,
       "2022-08-14": 19,
-      "2022-08-05": 18,
-      "2022-08-03": 18
+      "2022-08-05": 18
     }
   },
   {
@@ -598,11 +597,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/dweb.link.ico",
     "slug": "dweb-link",
     "status": "up",
-    "uptime": "90.12%",
+    "uptime": "90.13%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "89.75%",
-    "uptimeMonth": "90.12%",
-    "uptimeYear": "90.12%",
+    "uptimeMonth": "90.13%",
+    "uptimeYear": "90.13%",
     "time": 258,
     "timeDay": 374,
     "timeWeek": 255,
