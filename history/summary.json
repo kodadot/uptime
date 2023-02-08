@@ -533,19 +533,19 @@
     "url": "https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea",
     "icon": "https://icons.duckduckgo.com/ip3/cloudflare-ipfs.com.ico",
     "slug": "clouflare-ipfs",
-    "status": "up",
-    "uptime": "99.19%",
-    "uptimeDay": "98.09%",
+    "status": "down",
+    "uptime": "99.21%",
+    "uptimeDay": "98.05%",
     "uptimeWeek": "99.11%",
     "uptimeMonth": "97.86%",
-    "uptimeYear": "99.19%",
+    "uptimeYear": "99.21%",
     "time": 304,
     "timeDay": 114,
     "timeWeek": 243,
     "timeMonth": 496,
     "timeYear": 304,
     "dailyMinutesDown": {
-      "2023-02-08": 28,
+      "2023-02-08": 29,
       "2023-02-05": 11,
       "2023-02-02": 11,
       "2023-02-01": 39,
@@ -590,7 +590,7 @@
       "2022-10-07": 70,
       "2022-10-06": 57,
       "2022-10-05": 20,
-      "2022-10-04": 79
+      "2022-10-04": 39
     }
   },
   {
@@ -598,19 +598,19 @@
     "url": "https://dweb.link/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea",
     "icon": "https://icons.duckduckgo.com/ip3/dweb.link.ico",
     "slug": "dweb-link",
-    "status": "up",
-    "uptime": "87.64%",
-    "uptimeDay": "58.45%",
-    "uptimeWeek": "76.29%",
-    "uptimeMonth": "87.64%",
-    "uptimeYear": "87.64%",
-    "time": 315,
-    "timeDay": 279,
+    "status": "down",
+    "uptime": "87.74%",
+    "uptimeDay": "59.07%",
+    "uptimeWeek": "76.42%",
+    "uptimeMonth": "87.74%",
+    "uptimeYear": "87.74%",
+    "time": 314,
+    "timeDay": 282,
     "timeWeek": 307,
-    "timeMonth": 315,
-    "timeYear": 315,
+    "timeMonth": 314,
+    "timeYear": 314,
     "dailyMinutesDown": {
-      "2023-02-08": 114,
+      "2023-02-08": 115,
       "2023-02-07": 722,
       "2023-02-06": 643,
       "2023-02-05": 158,
@@ -618,7 +618,7 @@
       "2023-02-02": 417,
       "2023-02-01": 325,
       "2023-01-31": 463,
-      "2023-01-24": 47
+      "2023-01-24": 24
     }
   },
   {
