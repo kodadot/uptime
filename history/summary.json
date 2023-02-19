@@ -534,12 +534,12 @@
     "url": "https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea",
     "icon": "https://icons.duckduckgo.com/ip3/cloudflare-ipfs.com.ico",
     "slug": "clouflare-ipfs",
-    "status": "up",
-    "uptime": "99.37%",
-    "uptimeDay": "95.91%",
-    "uptimeWeek": "97.86%",
-    "uptimeMonth": "97.82%",
-    "uptimeYear": "99.37%",
+    "status": "down",
+    "uptime": "99.39%",
+    "uptimeDay": "95.88%",
+    "uptimeWeek": "97.85%",
+    "uptimeMonth": "97.81%",
+    "uptimeYear": "99.39%",
     "time": 312,
     "timeDay": 531,
     "timeWeek": 389,
@@ -592,7 +592,7 @@
       "2022-10-16": 15,
       "2022-10-15": 72,
       "2022-10-12": 34,
-      "2022-10-10": 62
+      "2022-10-10": 28
     }
   },
   {
