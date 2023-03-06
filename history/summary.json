@@ -604,19 +604,19 @@
     "url": "https://dweb.link/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea",
     "icon": "https://icons.duckduckgo.com/ip3/dweb.link.ico",
     "slug": "dweb-link",
-    "status": "up",
-    "uptime": "95.45%",
-    "uptimeDay": "69.39%",
-    "uptimeWeek": "85.08%",
-    "uptimeMonth": "93.52%",
-    "uptimeYear": "95.45%",
+    "status": "down",
+    "uptime": "95.47%",
+    "uptimeDay": "69.36%",
+    "uptimeWeek": "85.07%",
+    "uptimeMonth": "93.55%",
+    "uptimeYear": "95.47%",
     "time": 330,
     "timeDay": 298,
     "timeWeek": 323,
-    "timeMonth": 336,
+    "timeMonth": 337,
     "timeYear": 330,
     "dailyMinutesDown": {
-      "2023-03-06": 279,
+      "2023-03-06": 280,
       "2023-03-05": 316,
       "2023-03-04": 445,
       "2023-03-03": 332,
@@ -625,7 +625,7 @@
       "2023-02-13": 884,
       "2023-02-12": 192,
       "2023-02-11": 68,
-      "2023-02-10": 81
+      "2023-02-10": 67
     }
   },
   {
