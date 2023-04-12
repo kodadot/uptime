@@ -438,17 +438,17 @@
     "url": "https://og-image-green-seven.vercel.app/%20Luna%20Witches%20%233.jpeg?price=0.5500KSM&image=https://image.w.kodadot.xyz/ipfs/bafybeifkgsyqa6h5mniydsz75yzd7qrffq5jh3osgjlafab2pnlsutsyvy&mime=image/jpeg",
     "icon": "https://icons.duckduckgo.com/ip3/og-image-green-seven.vercel.app.ico",
     "slug": "seo-card-with-content",
-    "status": "up",
-    "uptime": "98.26%",
-    "uptimeDay": "66.29%",
-    "uptimeWeek": "90.69%",
+    "status": "down",
+    "uptime": "98.27%",
+    "uptimeDay": "69.47%",
+    "uptimeWeek": "90.68%",
     "uptimeMonth": "97.83%",
-    "uptimeYear": "98.26%",
-    "time": 743,
-    "timeDay": 1358,
-    "timeWeek": 1532,
-    "timeMonth": 1460,
-    "timeYear": 743,
+    "uptimeYear": "98.27%",
+    "time": 742,
+    "timeDay": 1280,
+    "timeWeek": 1485,
+    "timeMonth": 1435,
+    "timeYear": 742,
     "dailyMinutesDown": {
       "2023-04-12": 96,
       "2023-04-11": 487,
@@ -486,7 +486,7 @@
       "2022-12-18": 243,
       "2022-12-17": 200,
       "2022-12-16": 252,
-      "2022-12-15": 60
+      "2022-12-15": 42
     }
   },
   {
