@@ -599,7 +599,7 @@
     "uptime": "97.86%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.91%",
-    "uptimeMonth": "96.97%",
+    "uptimeMonth": "97.00%",
     "uptimeYear": "97.86%",
     "time": 322,
     "timeDay": 297,
@@ -687,19 +687,19 @@
     "url": "https://kodadot.xyz/",
     "icon": "https://icons.duckduckgo.com/ip3/kodadot.xyz.ico",
     "slug": "koda-dot-home",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.93%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.11%",
+    "uptimeWeek": "99.87%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 229,
-    "timeDay": 114,
-    "timeWeek": 139,
+    "timeDay": 125,
+    "timeWeek": 140,
     "timeMonth": 131,
     "timeYear": 229,
     "dailyMinutesDown": {
-      "2023-04-14": 1
+      "2023-04-14": 13
     }
   }
 ]
