@@ -41,16 +41,22 @@ sites:
       - 404
 
   # subsquid
-  - name: antick
-    url: https://squid.subsquid.io/antick/v/001-rc0/graphql
-  - name: snekk
-    url: https://squid.subsquid.io/snekk/v/004/graphql
   - name: bsx
     url: https://squid.subsquid.io/snekk/graphql
-  - name: rubick
-    url: https://squid.subsquid.io/rubick/graphql
-  - name: click
+  - name: snekk
+    url: https://squid.subsquid.io/snekk/v/004/graphql
+  - name: movr
     url: https://squid.subsquid.io/click/v/002/graphql
+  - name: glmr
+    url: https://squid.subsquid.io/antick/v/001-rc0/graphql
+  - name: rmrk2
+    url: https://squid.subsquid.io/marck/graphql
+  - name: rmrk1
+    url: https://squid.subsquid.io/rubick/graphql
+  - name: stmn
+    url: https://squid.subsquid.io/stick/graphql
+  - name: stt
+    url: https://squid.subsquid.io/speck/v/v1/graphql
 
   # rubick with queries
   - name: rubick - curated list
