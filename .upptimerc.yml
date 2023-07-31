@@ -5,8 +5,8 @@ repo: uptime # The name of this repository
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: kodadot.js.org
-  baseUrl: /uptime
+  cname: uptime.kodadot.xyz
+  # baseUrl: /uptime
   logoUrl: https://kodadot.xyz/_nuxt/img/Koda_Beta.17049af.svg
   name: KodaDot NFT Marketplace
   introTitle: '[KodaDot](https://kodadot.xyz/) is developed as open source NFT marketplace and ultimately created as public goods of Internet, currently running on [Kusama.network](https://kusama.network/)'
@@ -46,7 +46,7 @@ sites:
   - name: snekk
     url: https://squid.subsquid.io/snekk/v/004/graphql
   - name: bsx
-    url: https://squid.subsquid.io/snekk/v/005/graphql
+    url: https://squid.subsquid.io/snekk/graphql
   - name: rubick
     url: https://squid.subsquid.io/rubick/graphql
   - name: click
@@ -97,8 +97,8 @@ sites:
     body: '{"query":"query hotNfts($orderBy: [EventOrderByInput!] = timestamp_DESC, $gte: DateTime!) {\n  result: events(\n    where: {interaction_eq: BUY, timestamp_gte: $gte}\n    orderBy: $orderBy\n  ) {\n    timestamp\n    interaction\n    nft {\n      collection {\n        name\n        id\n        __typename\n      }\n      __typename\n    }\n    meta\n    __typename\n  }\n}\n","variables":{"orderBy":"timestamp_DESC","gte":"2022-09-17T06:38:30.078Z"}}'
 
   # netlify
-  - name: Netlify functions
-    url: https://beta.kodadot.xyz/.netlify/functions/
+  # - name: Netlify functions
+  #   url: https://beta.kodadot.xyz/.netlify/functions/
 
   # vercel
   - name: Seo Card
@@ -111,18 +111,18 @@ sites:
       - 200
 
   # providers
-  - name: image-gateway
-    url: https://image.w.kodadot.xyz/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
-  - name: nftstorage.link
-    url: https://bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea.ipfs.nftstorage.link/
-  - name: clouflare ipfs
-    url: https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
-  - name: dweb-link
-    url: https://dweb.link/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
-  - name: coingecko
-    url: https://api.coingecko.com/api/v3/ping
-  - name: ramp
-    url: https://ramp.network/buy/
+  # - name: image-gateway
+  #   url: https://image.w.kodadot.xyz/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
+  # - name: nftstorage.link
+  #   url: https://bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea.ipfs.nftstorage.link/
+  # - name: clouflare ipfs
+  #   url: https://cloudflare-ipfs.com/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
+  # - name: dweb-link
+  #   url: https://dweb.link/ipfs/bafybeidkhq7aynm2yuuvzimkqcabbqgg3w2uzvy2e7zq3vl5ojhf36kxea
+  # - name: coingecko
+  #   url: https://api.coingecko.com/api/v3/ping
+  # - name: ramp
+  #   url: https://ramp.network/buy/
 
   # pages
   - name: KodaDot - home
