@@ -80,8 +80,8 @@
     "slug": "bsx",
     "status": "up",
     "uptime": "78.63%",
-    "uptimeDay": "1.54%",
-    "uptimeWeek": "0.22%",
+    "uptimeDay": "1.59%",
+    "uptimeWeek": "0.23%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "78.63%",
     "time": 145,
@@ -302,18 +302,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/squid.subsquid.io.ico",
     "slug": "stt-drops",
     "status": "down",
-    "uptime": "7.00%",
-    "uptimeDay": "7.00%",
-    "uptimeWeek": "7.00%",
-    "uptimeMonth": "7.00%",
-    "uptimeYear": "7.00%",
+    "uptime": "2.73%",
+    "uptimeDay": "2.73%",
+    "uptimeWeek": "2.73%",
+    "uptimeMonth": "2.73%",
+    "uptimeYear": "2.73%",
     "time": 278,
     "timeDay": 278,
     "timeWeek": 278,
     "timeMonth": 278,
     "timeYear": 278,
     "dailyMinutesDown": {
-      "2023-07-31": 0
+      "2023-07-31": 1
     }
   },
   {
