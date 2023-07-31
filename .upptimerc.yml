@@ -19,6 +19,11 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 
+assignees:
+  - yangwao
+  - vikiival
+  - preschian
+
 sites:
   # cloudflare workers
   - name: durable-jpeg
@@ -60,6 +65,12 @@ sites:
 
   # subsquid queries
   # copy as fetch
+  - name: stmn - drops
+    url: https://squid.subsquid.io/stick/graphql
+    method: POST
+    headers:
+      - 'Content-Type: application/json'
+    body: "{\"operationName\":\"unlockableCollectionById\",\"variables\":{\"orderBy\":\"blockNumber_DESC\",\"id\":\"32\"},\"query\":\"query unlockableCollectionById($id: String!, $search: [NFTEntityWhereInput!], $orderBy: NFTEntityOrderByInput = blockNumber_DESC, $first: Int, $offset: Int) {\\n  collectionEntity: collectionEntityById(id: $id) {\\n    ...collection\\n    ...collectionDetails\\n    createdAt\\n    max\\n    nftCount\\n    meta {\\n      ...baseMeta\\n      __typename\\n    }\\n    nfts(\\n      orderBy: [$orderBy, blockNumber_DESC]\\n      limit: $first\\n      offset: $offset\\n      where: {burned_eq: false, AND: $search}\\n    ) {\\n      id\\n      metadata\\n      name\\n      price\\n      burned\\n      currentOwner\\n      ...subsquidNft\\n      __typename\\n    }\\n    __typename\\n  }\\n  nftEntitiesConnection(\\n    orderBy: id_ASC\\n    where: {burned_eq: false, collection: {id_eq: $id}, AND: $search}\\n  ) {\\n    totalCount\\n    __typename\\n  }\\n}\\n\\nfragment collection on CollectionEntity {\\n  id\\n  metadata\\n  issuer\\n  currentOwner\\n  blockNumber\\n  __typename\\n}\\n\\nfragment collectionDetails on CollectionEntity {\\n  name\\n  __typename\\n}\\n\\nfragment subsquidNft on NFTEntity {\\n  id\\n  metadata\\n  issuer\\n  currentOwner\\n  blockNumber\\n  burned\\n  collection {\\n    id\\n    name\\n    __typename\\n  }\\n  meta {\\n    id\\n    name\\n    image\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment baseMeta on MetadataEntity {\\n  id\\n  image\\n  animationUrl\\n  name\\n  description\\n  __typename\\n}\\n\"}"
   - name: stt - drops
     url: https://squid.subsquid.io/speck/v/v1/graphql
     method: POST
