@@ -149,5 +149,15 @@ sites:
   #   url: https://ramp.network/buy/
 
   # pages
-  - name: KodaDot - home
+  - name: KodaDot - production
     url: https://kodadot.xyz/
+    expectedStatusCodes:
+      - 200
+  - name: KodaDot - beta
+    url: https://beta.kodadot.xyz/
+    expectedStatusCodes:
+      - 200
+  - name: KodaDot - canary
+    url: https://canary.kodadot.xyz/
+    expectedStatusCodes:
+      - 200
