@@ -1,7 +1,7 @@
 url: https://squid.subsquid.io/antick/v/001-rc0/graphql
-status: down
-code: 504
-responseTime: 3160
-lastUpdated: 2023-08-15T05:52:12.229Z
+status: up
+code: 200
+responseTime: 112
+lastUpdated: 2023-08-15T10:11:43.957Z
 startTime: Mon Jul 31 2023 07:28:11 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
