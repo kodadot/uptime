@@ -49,7 +49,7 @@ sites:
   - name: bsx
     url: https://squid.subsquid.io/snekk/graphql
   - name: snekk
-    url: https://squid.subsquid.io/snekk/v/004/graphql
+    url: https://squid.subsquid.io/sneck/graphql
   - name: movr
     url: https://squid.subsquid.io/click/v/002/graphql
   - name: glmr
@@ -58,10 +58,10 @@ sites:
     url: https://squid.subsquid.io/marck/graphql
   - name: rmrk1
     url: https://squid.subsquid.io/rubick/graphql
-  - name: stmn
+  - name: ahk
     url: https://squid.subsquid.io/stick/graphql
-  - name: stt
-    url: https://squid.subsquid.io/speck/v/v1/graphql
+  - name: ahp
+    url: https://squid.subsquid.io/speck/graphql
 
   # subsquid queries
   # copy as fetch
