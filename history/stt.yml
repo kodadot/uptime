@@ -1,7 +1,7 @@
 url: https://squid.subsquid.io/speck/v/v1/graphql
-status: down
-code: 504
-responseTime: 3139
-lastUpdated: 2023-09-06T23:25:00.170Z
+status: up
+code: 200
+responseTime: 107
+lastUpdated: 2023-09-06T23:37:36.565Z
 startTime: 2023-07-31T07:28:13.000Z
 generator: Upptime <https://github.com/upptime/upptime>
