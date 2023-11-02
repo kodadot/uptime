@@ -311,7 +311,7 @@
     "timeMonth": 132,
     "timeYear": 722,
     "dailyMinutesDown": {
-      "2023-11-02": 1308,
+      "2023-11-02": 1320,
       "2023-11-01": 1440,
       "2023-10-31": 1440,
       "2023-10-30": 1440,
@@ -417,7 +417,7 @@
     "timeMonth": 130,
     "timeYear": 908,
     "dailyMinutesDown": {
-      "2023-11-02": 1308,
+      "2023-11-02": 1320,
       "2023-11-01": 1440,
       "2023-10-31": 1440,
       "2023-10-30": 1440,
@@ -690,19 +690,19 @@
     "url": "https://og-image-green-seven.vercel.app/",
     "icon": "https://icons.duckduckgo.com/ip3/og-image-green-seven.vercel.app.ico",
     "slug": "seo-card",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.16%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 147,
-    "timeDay": 84,
-    "timeWeek": 169,
-    "timeMonth": 111,
+    "timeDay": 107,
+    "timeWeek": 165,
+    "timeMonth": 112,
     "timeYear": 142,
     "dailyMinutesDown": {
-      "2023-11-02": 1
+      "2023-11-02": 12
     }
   },
   {
