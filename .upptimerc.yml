@@ -48,8 +48,6 @@ sites:
   # subsquid
   - name: bsx
     url: https://squid.subsquid.io/snekk/graphql
-  - name: snekk
-    url: https://squid.subsquid.io/sneck/graphql
   - name: rmrk2
     url: https://squid.subsquid.io/marck/graphql
   - name: rmrk1
