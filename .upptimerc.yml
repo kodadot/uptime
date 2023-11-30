@@ -22,7 +22,6 @@ status-website:
 assignees:
   - yangwao
   - vikiival
-  - preschian
 
 sites:
   # cloudflare workers
@@ -141,6 +140,20 @@ sites:
   #   url: https://api.coingecko.com/api/v3/ping
   # - name: ramp
   #   url: https://ramp.network/buy/
+
+  # price
+  - name: price - kusama
+    url: https://price.kodadot.workers.dev/price/kusama
+    expectedStatusCodes:
+      - 200
+  - name: price - polkadot
+    url: https://price.kodadot.workers.dev/price/polkadot
+    expectedStatusCodes:
+      - 200
+  - name: price - basilisk
+    url: https://price.kodadot.workers.dev/price/basilisk
+    expectedStatusCodes:
+      - 200
 
   # pages
   - name: KodaDot - production
