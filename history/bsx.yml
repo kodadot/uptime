@@ -1,7 +1,7 @@
 url: https://squid.subsquid.io/snekk/graphql
-status: down
-code: 504
-responseTime: 1339
-lastUpdated: 2024-01-06T15:26:47.191Z
+status: up
+code: 200
+responseTime: 379
+lastUpdated: 2024-01-06T15:39:29.219Z
 startTime: 2022-10-05T03:33:08.000Z
 generator: Upptime <https://github.com/upptime/upptime>
