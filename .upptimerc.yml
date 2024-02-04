@@ -45,8 +45,6 @@ sites:
       - 404
 
   # subsquid
-  - name: bsx
-    url: https://squid.subsquid.io/snekk/graphql
   - name: rmrk2
     url: https://squid.subsquid.io/marck/graphql
   - name: rmrk1
