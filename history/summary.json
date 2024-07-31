@@ -14,7 +14,7 @@
     "timeDay": 230,
     "timeWeek": 301,
     "timeMonth": 333,
-    "timeYear": 332,
+    "timeYear": 333,
     "dailyMinutesDown": {}
   },
   {
@@ -32,7 +32,7 @@
     "timeDay": 123,
     "timeWeek": 139,
     "timeMonth": 153,
-    "timeYear": 128,
+    "timeYear": 129,
     "dailyMinutesDown": {}
   },
   {
@@ -50,7 +50,7 @@
     "timeDay": 107,
     "timeWeek": 164,
     "timeMonth": 175,
-    "timeYear": 131,
+    "timeYear": 132,
     "dailyMinutesDown": {}
   },
   {
@@ -68,7 +68,7 @@
     "timeDay": 168,
     "timeWeek": 107,
     "timeMonth": 105,
-    "timeYear": 103,
+    "timeYear": 104,
     "dailyMinutesDown": {}
   },
   {
@@ -86,7 +86,7 @@
     "timeDay": 394,
     "timeWeek": 358,
     "timeMonth": 318,
-    "timeYear": 208,
+    "timeYear": 209,
     "dailyMinutesDown": {
       "2024-04-11": 13,
       "2024-02-17": 15,
@@ -140,7 +140,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/squid.subsquid.io.ico",
     "slug": "stt",
     "status": "up",
-    "uptime": "84.43%",
+    "uptime": "84.46%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -149,7 +149,7 @@
     "timeDay": 116,
     "timeWeek": 118,
     "timeMonth": 125,
-    "timeYear": 337,
+    "timeYear": 339,
     "dailyMinutesDown": {
       "2024-01-22": 26,
       "2024-01-06": 21,
@@ -236,7 +236,7 @@
     "timeDay": 156,
     "timeWeek": 331,
     "timeMonth": 376,
-    "timeYear": 474,
+    "timeYear": 473,
     "dailyMinutesDown": {
       "2023-10-30": 11,
       "2023-08-24": 15,
@@ -248,10 +248,10 @@
     "url": "https://squid.subsquid.io/speck/graphql",
     "icon": "https://icons.duckduckgo.com/ip3/squid.subsquid.io.ico",
     "slug": "stt-drops",
-    "status": "up",
-    "uptime": "84.43%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "status": "down",
+    "uptime": "84.46%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "84.40%",
     "time": 696,
@@ -260,6 +260,7 @@
     "timeMonth": 1434,
     "timeYear": 696,
     "dailyMinutesDown": {
+      "2024-07-31": 1,
       "2024-01-22": 26,
       "2024-01-06": 21,
       "2023-11-03": 782,
@@ -368,7 +369,7 @@
     "timeDay": 4678,
     "timeWeek": 4846,
     "timeMonth": 3977,
-    "timeYear": 3217,
+    "timeYear": 3242,
     "dailyMinutesDown": {
       "2024-07-28": 10,
       "2024-07-19": 19,
@@ -392,7 +393,7 @@
     "timeDay": 2498,
     "timeWeek": 2451,
     "timeMonth": 2127,
-    "timeYear": 1590,
+    "timeYear": 1602,
     "dailyMinutesDown": {
       "2024-07-19": 19,
       "2024-01-06": 13,
@@ -416,7 +417,7 @@
     "timeDay": 321,
     "timeWeek": 369,
     "timeMonth": 379,
-    "timeYear": 451,
+    "timeYear": 452,
     "dailyMinutesDown": {
       "2024-07-19": 19,
       "2024-01-06": 13,
@@ -466,7 +467,7 @@
     "timeDay": 609,
     "timeWeek": 594,
     "timeMonth": 539,
-    "timeYear": 405,
+    "timeYear": 407,
     "dailyMinutesDown": {
       "2024-07-19": 19,
       "2024-01-06": 13,
@@ -491,7 +492,7 @@
     "timeDay": 563,
     "timeWeek": 526,
     "timeMonth": 516,
-    "timeYear": 433,
+    "timeYear": 435,
     "dailyMinutesDown": {
       "2024-07-19": 19,
       "2024-01-06": 13,
@@ -537,7 +538,7 @@
     "timeDay": 43,
     "timeWeek": 833,
     "timeMonth": 2490,
-    "timeYear": 2191,
+    "timeYear": 2190,
     "dailyMinutesDown": {
       "2024-05-15": 14,
       "2024-05-03": 26,
