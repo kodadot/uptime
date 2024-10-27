@@ -1,7 +1,7 @@
 url: https://squid.subsquid.io/flock/graphql
-status: down
-code: 504
-responseTime: 6375
-lastUpdated: 2024-10-27T06:47:10.732Z
+status: up
+code: 200
+responseTime: 268
+lastUpdated: 2024-10-27T06:59:27.892Z
 startTime: 2024-10-03T10:24:23.614Z
 generator: Upptime <https://github.com/upptime/upptime>
