@@ -310,9 +310,9 @@
     "slug": "koda-dot-production",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.77%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 224,
     "timeDay": 350,
@@ -320,7 +320,7 @@
     "timeMonth": 346,
     "timeYear": 270,
     "dailyMinutesDown": {
-      "2025-01-11": 0
+      "2025-01-11": 18
     }
   },
   {
@@ -330,9 +330,9 @@
     "slug": "koda-dot-beta",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.77%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 213,
     "timeDay": 485,
@@ -340,7 +340,7 @@
     "timeMonth": 317,
     "timeYear": 256,
     "dailyMinutesDown": {
-      "2025-01-11": 0
+      "2025-01-11": 18
     }
   },
   {
@@ -350,9 +350,9 @@
     "slug": "koda-dot-canary",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.77%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 213,
     "timeDay": 338,
@@ -360,7 +360,7 @@
     "timeMonth": 283,
     "timeYear": 257,
     "dailyMinutesDown": {
-      "2025-01-11": 0
+      "2025-01-11": 18
     }
   }
 ]
