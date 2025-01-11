@@ -308,19 +308,19 @@
     "url": "https://kodadot.xyz/",
     "icon": "https://icons.duckduckgo.com/ip3/kodadot.xyz.ico",
     "slug": "koda-dot-production",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "98.77%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "93.63%",
+    "uptimeWeek": "99.09%",
+    "uptimeMonth": "99.79%",
+    "uptimeYear": "99.98%",
     "time": 224,
-    "timeDay": 350,
-    "timeWeek": 373,
-    "timeMonth": 346,
+    "timeDay": 254,
+    "timeWeek": 346,
+    "timeMonth": 341,
     "timeYear": 270,
     "dailyMinutesDown": {
-      "2025-01-11": 18
+      "2025-01-11": 92
     }
   },
   {
@@ -328,19 +328,19 @@
     "url": "https://beta.kodadot.xyz/",
     "icon": "https://icons.duckduckgo.com/ip3/beta.kodadot.xyz.ico",
     "slug": "koda-dot-beta",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "98.77%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "93.63%",
+    "uptimeWeek": "99.09%",
+    "uptimeMonth": "99.79%",
+    "uptimeYear": "99.98%",
     "time": 213,
-    "timeDay": 485,
-    "timeWeek": 375,
-    "timeMonth": 317,
+    "timeDay": 311,
+    "timeWeek": 346,
+    "timeMonth": 312,
     "timeYear": 256,
     "dailyMinutesDown": {
-      "2025-01-11": 18
+      "2025-01-11": 92
     }
   },
   {
@@ -348,19 +348,19 @@
     "url": "https://canary.kodadot.xyz/",
     "icon": "https://icons.duckduckgo.com/ip3/canary.kodadot.xyz.ico",
     "slug": "koda-dot-canary",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "98.77%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "93.63%",
+    "uptimeWeek": "99.09%",
+    "uptimeMonth": "99.79%",
+    "uptimeYear": "99.98%",
     "time": 213,
-    "timeDay": 338,
-    "timeWeek": 329,
-    "timeMonth": 283,
+    "timeDay": 265,
+    "timeWeek": 312,
+    "timeMonth": 281,
     "timeYear": 257,
     "dailyMinutesDown": {
-      "2025-01-11": 18
+      "2025-01-11": 92
     }
   }
 ]
