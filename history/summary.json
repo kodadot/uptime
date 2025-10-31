@@ -160,7 +160,7 @@
     "timeMonth": 141,
     "timeYear": 124,
     "dailyMinutesDown": {
-      "2025-10-31": 1159,
+      "2025-10-31": 1170,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
       "2025-10-28": 1440,
@@ -471,7 +471,7 @@
     "timeMonth": 140,
     "timeYear": 124,
     "dailyMinutesDown": {
-      "2025-10-31": 1159,
+      "2025-10-31": 1170,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
       "2025-10-28": 1440,
@@ -782,7 +782,7 @@
     "timeMonth": 141,
     "timeYear": 176,
     "dailyMinutesDown": {
-      "2025-10-31": 1159,
+      "2025-10-31": 1170,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
       "2025-10-28": 1440,
@@ -1093,7 +1093,7 @@
     "timeMonth": 139,
     "timeYear": 134,
     "dailyMinutesDown": {
-      "2025-10-31": 1159,
+      "2025-10-31": 1170,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
       "2025-10-28": 1440,
@@ -1468,19 +1468,19 @@
     "url": "https://price.kodadot.workers.dev/price/kusama",
     "icon": "https://icons.duckduckgo.com/ip3/price.kodadot.workers.dev.ico",
     "slug": "price-kusama",
-    "status": "down",
+    "status": "up",
     "uptime": "99.98%",
-    "uptimeDay": "97.29%",
-    "uptimeWeek": "99.61%",
-    "uptimeMonth": "99.91%",
+    "uptimeDay": "96.64%",
+    "uptimeWeek": "99.52%",
+    "uptimeMonth": "99.89%",
     "uptimeYear": "99.97%",
     "time": 434,
-    "timeDay": 294,
+    "timeDay": 314,
     "timeWeek": 374,
-    "timeMonth": 464,
-    "timeYear": 429,
+    "timeMonth": 461,
+    "timeYear": 428,
     "dailyMinutesDown": {
-      "2025-10-31": 39,
+      "2025-10-31": 48,
       "2025-06-12": 113
     }
   },
@@ -1512,9 +1512,9 @@
     "slug": "price-basilisk",
     "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "79.37%",
-    "uptimeWeek": "97.05%",
-    "uptimeMonth": "99.32%",
+    "uptimeDay": "78.57%",
+    "uptimeWeek": "96.94%",
+    "uptimeMonth": "99.30%",
     "uptimeYear": "99.92%",
     "time": 508,
     "timeDay": 138,
@@ -1522,7 +1522,7 @@
     "timeMonth": 690,
     "timeYear": 512,
     "dailyMinutesDown": {
-      "2025-10-31": 297,
+      "2025-10-31": 309,
       "2025-06-12": 113
     }
   },
