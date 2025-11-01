@@ -161,7 +161,7 @@
     "timeMonth": 141,
     "timeYear": 124,
     "dailyMinutesDown": {
-      "2025-11-01": 1397,
+      "2025-11-01": 1407,
       "2025-10-31": 1440,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
@@ -473,7 +473,7 @@
     "timeMonth": 141,
     "timeYear": 124,
     "dailyMinutesDown": {
-      "2025-11-01": 1397,
+      "2025-11-01": 1407,
       "2025-10-31": 1440,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
@@ -785,7 +785,7 @@
     "timeMonth": 141,
     "timeYear": 173,
     "dailyMinutesDown": {
-      "2025-11-01": 1397,
+      "2025-11-01": 1407,
       "2025-10-31": 1440,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
@@ -1097,7 +1097,7 @@
     "timeMonth": 139,
     "timeYear": 133,
     "dailyMinutesDown": {
-      "2025-11-01": 1397,
+      "2025-11-01": 1407,
       "2025-10-31": 1440,
       "2025-10-30": 1440,
       "2025-10-29": 1440,
@@ -1477,9 +1477,9 @@
     "slug": "price-kusama",
     "status": "down",
     "uptime": "99.94%",
-    "uptimeDay": "72.40%",
-    "uptimeWeek": "94.82%",
-    "uptimeMonth": "98.81%",
+    "uptimeDay": "71.69%",
+    "uptimeWeek": "94.72%",
+    "uptimeMonth": "98.79%",
     "uptimeYear": "99.88%",
     "time": 423,
     "timeDay": 228,
@@ -1487,7 +1487,7 @@
     "timeMonth": 363,
     "timeYear": 421,
     "dailyMinutesDown": {
-      "2025-11-01": 398,
+      "2025-11-01": 408,
       "2025-10-31": 124,
       "2025-06-12": 113
     }
@@ -1497,19 +1497,19 @@
     "url": "https://price.kodadot.workers.dev/price/polkadot",
     "icon": "https://icons.duckduckgo.com/ip3/price.kodadot.workers.dev.ico",
     "slug": "price-polkadot",
-    "status": "down",
+    "status": "up",
     "uptime": "99.94%",
-    "uptimeDay": "71.79%",
-    "uptimeWeek": "95.17%",
-    "uptimeMonth": "98.89%",
-    "uptimeYear": "99.89%",
+    "uptimeDay": "71.23%",
+    "uptimeWeek": "95.09%",
+    "uptimeMonth": "98.87%",
+    "uptimeYear": "99.88%",
     "time": 222,
-    "timeDay": 148,
+    "timeDay": 151,
     "timeWeek": 174,
     "timeMonth": 178,
     "timeYear": 195,
     "dailyMinutesDown": {
-      "2025-11-01": 406,
+      "2025-11-01": 414,
       "2025-10-31": 80,
       "2025-06-12": 113
     }
@@ -1522,8 +1522,8 @@
     "status": "down",
     "uptime": "99.78%",
     "uptimeDay": "0.00%",
-    "uptimeWeek": "80.41%",
-    "uptimeMonth": "95.49%",
+    "uptimeWeek": "80.31%",
+    "uptimeMonth": "95.47%",
     "uptimeYear": "99.60%",
     "time": 507,
     "timeDay": 0,
@@ -1531,7 +1531,7 @@
     "timeMonth": 700,
     "timeYear": 511,
     "dailyMinutesDown": {
-      "2025-11-01": 1397,
+      "2025-11-01": 1407,
       "2025-10-31": 578,
       "2025-06-12": 113
     }
