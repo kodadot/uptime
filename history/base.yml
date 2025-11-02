@@ -1,7 +1,7 @@
 url: https://squid.subsquid.io/basick/graphql
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-11-02T06:39:02.326Z
+status: up
+code: 200
+responseTime: 116
+lastUpdated: 2025-11-02T06:52:47.474Z
 startTime: 2024-10-03T10:24:24.331Z
 generator: Upptime <https://github.com/upptime/upptime>
