@@ -1,7 +1,7 @@
 url: https://canary.kodadot.xyz/
-status: up
-code: 200
-responseTime: 296
-lastUpdated: 2025-11-18T14:43:09.711Z
+status: down
+code: 500
+responseTime: 79
+lastUpdated: 2025-11-18T15:30:02.996Z
 startTime: 2023-08-11T07:52:29.000Z
 generator: Upptime <https://github.com/upptime/upptime>
