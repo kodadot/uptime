@@ -1,7 +1,7 @@
 url: https://price.kodadot.workers.dev/price/basilisk
-status: down
-code: 500
-responseTime: 6
-lastUpdated: 2025-11-18T11:57:28.666Z
+status: up
+code: 200
+responseTime: 756
+lastUpdated: 2025-11-18T12:57:37.656Z
 startTime: 2023-11-30T14:29:13.054Z
 generator: Upptime <https://github.com/upptime/upptime>
