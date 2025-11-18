@@ -1,7 +1,7 @@
 url: https://price.kodadot.workers.dev/price/polkadot
-status: down
-code: 500
-responseTime: 6
-lastUpdated: 2025-11-18T11:57:26.284Z
+status: up
+code: 200
+responseTime: 335
+lastUpdated: 2025-11-18T12:57:34.271Z
 startTime: 2023-11-30T14:29:12.626Z
 generator: Upptime <https://github.com/upptime/upptime>
