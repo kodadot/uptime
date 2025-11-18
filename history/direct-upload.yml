@@ -1,7 +1,7 @@
 url: https://direct-upload.kodadot.workers.dev/
-status: up
-code: 404
-responseTime: 187
-lastUpdated: 2025-11-18T12:57:17.026Z
+status: down
+code: 500
+responseTime: 54
+lastUpdated: 2025-11-18T13:37:45.257Z
 startTime: 2022-07-23T12:36:14.000Z
 generator: Upptime <https://github.com/upptime/upptime>
