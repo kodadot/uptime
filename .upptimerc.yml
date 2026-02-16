@@ -45,10 +45,10 @@ sites:
       - 200
 
   # subsquid
-  - name: mantle
-    url: https://squid.subsquid.io/flock/graphql
-  - name: base
-    url: https://squid.subsquid.io/basick/graphql
+  # - name: mantle
+    # url: https://squid.subsquid.io/flock/graphql
+  # - name: base
+    # url: https://squid.subsquid.io/basick/graphql
   - name: stmn
     url: https://squid.subsquid.io/stick/graphql
   - name: stt
